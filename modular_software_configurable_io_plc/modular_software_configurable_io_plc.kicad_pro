@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -474,7 +474,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GNDA": "rgb(72, 72, 72)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -591,6 +593,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "b764ffe3-5231-4422-b46d-b0de4c44c7b4",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
