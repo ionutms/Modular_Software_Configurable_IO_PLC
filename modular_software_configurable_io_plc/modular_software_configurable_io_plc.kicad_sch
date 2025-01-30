@@ -1506,6 +1506,202 @@
 			)
 		)
 	)
+	(junction
+		(at 148.59 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0505bca2-a5f3-4665-bed6-50978f42410b")
+	)
+	(junction
+		(at 140.97 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fb9af4-4662-437b-b7c4-d54f13a83946")
+	)
+	(junction
+		(at 138.43 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "143b6757-4e43-4810-b594-b4b1e84db878")
+	)
+	(junction
+		(at 140.97 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b07a640-0174-4db6-8a66-8f483a7a217b")
+	)
+	(junction
+		(at 151.13 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244d5cdb-17f7-4dd7-89e4-3fe012e3df44")
+	)
+	(junction
+		(at 166.37 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53183705-3e68-476b-8ec4-bf59454cb768")
+	)
+	(junction
+		(at 163.83 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a5e4ace-0100-4a28-a7a4-d75559710173")
+	)
+	(junction
+		(at 158.75 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dfb699b-3be2-437a-9e67-c48e4fab563f")
+	)
+	(junction
+		(at 161.29 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686f29d2-77d4-4a6c-b19d-e408ad57bffa")
+	)
+	(junction
+		(at 143.51 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f1064be-0a47-419e-9e75-97030ee45dee")
+	)
+	(junction
+		(at 168.91 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "703a3638-6c7f-45a8-8b92-c429c316d419")
+	)
+	(junction
+		(at 135.89 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f7c225-bf1a-406d-b395-947e83ca0305")
+	)
+	(junction
+		(at 161.29 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b83628b-c798-475f-b435-e3cda701ff00")
+	)
+	(junction
+		(at 148.59 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82bb3d74-7350-4fde-87e6-2a2715bc4938")
+	)
+	(junction
+		(at 156.21 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "935e0776-73e5-4da8-9ed0-2214c41c28e8")
+	)
+	(junction
+		(at 151.13 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e38af60-90dd-41d9-ba41-2853d45f537d")
+	)
+	(junction
+		(at 146.05 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a91e8ae0-00a3-487e-9628-d743e28b5620")
+	)
+	(junction
+		(at 153.67 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b03b5251-95da-45ab-bc98-cfff2ea58104")
+	)
+	(junction
+		(at 163.83 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ed8826-4c9b-4b0d-ae4c-4a7da8bf1ab3")
+	)
+	(junction
+		(at 146.05 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e64d5d69-baab-42e1-a444-8c7e654e6ef8")
+	)
+	(junction
+		(at 156.21 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e994b0a8-4bdd-4a33-b14d-e8dd4eb6c99b")
+	)
+	(junction
+		(at 166.37 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaaa6d18-1a28-4c92-b80d-59657be4e0c1")
+	)
+	(junction
+		(at 158.75 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef10c4a-a433-4e6e-8c9f-850f1b93c40f")
+	)
+	(junction
+		(at 153.67 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f29e062f-7323-48c3-8c03-fc83530accac")
+	)
+	(junction
+		(at 138.43 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6d5ffd3-c9ba-4c5d-ad9a-3c8cc1c56fa2")
+	)
+	(junction
+		(at 143.51 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbad6877-3f38-42e2-aa68-2fb55db4663a")
+	)
+	(wire
+		(pts
+			(xy 140.97 38.1) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033f8580-e482-411d-95d5-2a496c58f6c4")
+	)
+	(wire
+		(pts
+			(xy 151.13 139.7) (xy 148.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035027dd-e629-4fff-8e89-636c50fda359")
+	)
+	(wire
+		(pts
+			(xy 143.51 139.7) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c869604-e45e-463a-8b16-545345a7c175")
+	)
+	(wire
+		(pts
+			(xy 168.91 137.16) (xy 168.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109648f7-8a2c-4c9d-913e-16917e1e03b3")
+	)
 	(wire
 		(pts
 			(xy 134.62 114.3) (xy 132.08 114.3)
@@ -1528,6 +1724,36 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 38.1) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bff910b-1ece-4fcd-be9a-06a462f65a00")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d09ff4a-ae5a-4439-b7b6-a2dcb57ed029")
+	)
+	(wire
+		(pts
+			(xy 135.89 137.16) (xy 135.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cdc2f5-eec3-420f-a847-91bc25c3c9f2")
+	)
+	(wire
+		(pts
 			(xy 170.18 114.3) (xy 172.72 114.3)
 		)
 		(stroke
@@ -1535,6 +1761,16 @@
 			(type default)
 		)
 		(uuid "2f0ab888-3f0a-4443-8a50-b6f60bca4884")
+	)
+	(wire
+		(pts
+			(xy 140.97 137.16) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cdf9ed-a80d-43b5-a92b-d29caeeed69a")
 	)
 	(wire
 		(pts
@@ -1568,6 +1804,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 39.37) (xy 175.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0c1a7d-99d4-434f-a249-579114720566")
+	)
+	(wire
+		(pts
 			(xy 170.18 68.58) (xy 172.72 68.58)
 		)
 		(stroke
@@ -1575,6 +1821,26 @@
 			(type default)
 		)
 		(uuid "3d48c3d2-c781-4d17-9507-cb1beca8f748")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edf0547-9dae-4cf4-bc67-6c2f8695eb6d")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 168.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41caddf0-c8f2-4edb-9e95-695fe8a5295b")
 	)
 	(wire
 		(pts
@@ -1588,6 +1854,56 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 40.64) (xy 138.43 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8e3337-bb1b-4a7a-8865-52cf521c3cae")
+	)
+	(wire
+		(pts
+			(xy 163.83 139.7) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50329fff-b3fe-47be-8b4a-0310f40be31a")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5391eb1a-680e-4872-893c-68bc922c0cd0")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 156.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a9ecf5-3298-4d1c-aece-fc7b34f25e96")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 148.59 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8571d3-9f24-4430-a3d4-acf5528cfa1c")
+	)
+	(wire
+		(pts
 			(xy 185.42 115.57) (xy 185.42 114.3)
 		)
 		(stroke
@@ -1595,6 +1911,86 @@
 			(type default)
 		)
 		(uuid "5ba19b7e-4532-4cc2-903e-0e82a5da61a6")
+	)
+	(wire
+		(pts
+			(xy 143.51 137.16) (xy 143.51 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd00675-784e-41e8-9395-19e93d394089")
+	)
+	(wire
+		(pts
+			(xy 138.43 38.1) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e09849c-bccc-4e31-be81-e0b55d0888bf")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc96afb-871b-432b-ba13-d715b1af768f")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 135.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664f8ead-5f0f-438a-a093-ec1c28f8e3e7")
+	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 146.05 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6972f5ae-14df-48f5-b865-a72c3cc3d108")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 135.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcb7be0-33bd-4b77-802d-dc33fc6c2ebf")
+	)
+	(wire
+		(pts
+			(xy 166.37 137.16) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b450b8-f881-443a-a48c-099b6ac0f9a5")
+	)
+	(wire
+		(pts
+			(xy 151.13 137.16) (xy 151.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77901898-fb6f-443a-8a88-8a6f9014b177")
 	)
 	(wire
 		(pts
@@ -1608,6 +2004,46 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 139.7) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a206371-72b1-4065-9ad3-1e687e8d4854")
+	)
+	(wire
+		(pts
+			(xy 148.59 139.7) (xy 146.05 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c868aed-79e8-4a41-9b85-8be65c7b1498")
+	)
+	(wire
+		(pts
+			(xy 146.05 38.1) (xy 148.59 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e88b279-262a-4487-8fd7-90cec8964f9f")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f567d3-fa3f-4b50-996a-10686b7662ca")
+	)
+	(wire
+		(pts
 			(xy 134.62 115.57) (xy 134.62 114.3)
 		)
 		(stroke
@@ -1615,6 +2051,26 @@
 			(type default)
 		)
 		(uuid "83fb1c1a-dd39-421d-8cc5-f09d73fbd193")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886224ef-f9fa-4ba6-8291-7dccf61fa1b8")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 166.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4c119f-f612-4cdd-909d-1d60db8f32f2")
 	)
 	(wire
 		(pts
@@ -1628,6 +2084,46 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 137.16) (xy 156.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925a9a6b-3ca2-4f91-b054-19134c9ed6b3")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926d0643-cce1-4cc3-8ecf-db81ffae3606")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 168.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935fdb64-486c-4310-97d6-5a240e3d10b5")
+	)
+	(wire
+		(pts
+			(xy 146.05 139.7) (xy 143.51 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e128b0-a15e-4500-a53b-d345c6f5e662")
+	)
+	(wire
+		(pts
 			(xy 119.38 68.58) (xy 121.92 68.58)
 		)
 		(stroke
@@ -1635,6 +2131,46 @@
 			(type default)
 		)
 		(uuid "9868b0d2-3cea-409c-8a15-3a6d4d276fc2")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 161.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99787a0e-ea9a-430b-8e60-b29920cbc3c8")
+	)
+	(wire
+		(pts
+			(xy 156.21 139.7) (xy 153.67 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f148bc7-ad37-4542-833f-055b08805e40")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14f29a0-a814-4f03-931b-8385bf9a3d7a")
+	)
+	(wire
+		(pts
+			(xy 168.91 38.1) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d16b22-e051-4661-89be-f71b285183f9")
 	)
 	(wire
 		(pts
@@ -1648,6 +2184,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 137.16) (xy 163.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfe3ae7-6522-4639-be8b-12dab0aaabff")
+	)
+	(wire
+		(pts
 			(xy 185.42 68.58) (xy 182.88 68.58)
 		)
 		(stroke
@@ -1658,6 +2204,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 137.16) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d827a7-4955-4bda-b90d-34f0c9cc1b9c")
+	)
+	(wire
+		(pts
 			(xy 119.38 69.85) (xy 119.38 68.58)
 		)
 		(stroke
@@ -1665,6 +2221,186 @@
 			(type default)
 		)
 		(uuid "b6006b10-f9fe-457c-b6ac-7e807a9905ce")
+	)
+	(wire
+		(pts
+			(xy 161.29 139.7) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ef60f2-b773-4a0c-a314-4e376640f02a")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f4301a-7dd3-42a1-9ecd-5da0e64ae9fe")
+	)
+	(wire
+		(pts
+			(xy 158.75 137.16) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6718e92-c90a-4bb0-81a9-9d730607f882")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 138.43 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c768bd3d-621f-4a68-b08c-5ce1eba9b065")
+	)
+	(wire
+		(pts
+			(xy 140.97 139.7) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0822734-521f-40a6-a98d-ab47326387be")
+	)
+	(wire
+		(pts
+			(xy 153.67 139.7) (xy 151.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3357c1f-2143-4f31-ab04-87f93b7c8f9f")
+	)
+	(wire
+		(pts
+			(xy 148.59 137.16) (xy 148.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4652163-d872-40f8-8f4a-9741b6e86a8c")
+	)
+	(wire
+		(pts
+			(xy 153.67 137.16) (xy 153.67 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df724c87-90dd-4e29-abfe-3687c97bcbab")
+	)
+	(wire
+		(pts
+			(xy 158.75 139.7) (xy 156.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc50607-4270-491b-b43b-ca27313ba0fd")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31a132d-dcff-4c82-bd9b-21cd24c695d5")
+	)
+	(wire
+		(pts
+			(xy 166.37 139.7) (xy 163.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40795a8-500c-45fb-8a83-64b044ee6e81")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 158.75 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c7645a-d555-489d-8774-bb1206757c98")
+	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0740afc-d1f9-4099-af0d-835f2de70a4f")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 146.05 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69f4896-f69b-4d8e-bd62-f7922ff09fbd")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72bad71-b7ec-4f87-8fb7-f893b248be43")
+	)
+	(wire
+		(pts
+			(xy 146.05 38.1) (xy 146.05 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f949efeb-1a55-4ed4-bab1-d795edde143d")
+	)
+	(wire
+		(pts
+			(xy 140.97 38.1) (xy 140.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdaa3b91-0c26-4c04-866e-736c7b9bc084")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1fbc50-216f-430e-b0a2-7268da181de9")
 	)
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-02-03-G-D-085-315")
@@ -1896,6 +2632,72 @@
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 175.26 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18228203-efc4-40df-a5ca-e651b89c55a7")
+		(property "Reference" "#PWR09"
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 175.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 175.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c37520d-11a0-4103-90fd-aead811642e2")
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2216,15 +3018,15 @@
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-14-03-G-D-085-315")
 		(at 152.4 132.08 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ec89447-44ad-4cc3-a941-4f77e3501163")
 		(property "Reference" "J8"
-			(at 132.08 130.8099 90)
+			(at 132.08 133.3501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +3035,7 @@
 			)
 		)
 		(property "Value" "FW-14-03-G-D-085-315"
-			(at 132.08 133.3499 90)
+			(at 132.08 130.8101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +3044,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:FW-14-03-G-D-085-315"
-			(at 175.26 127 0)
+			(at 175.26 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2253,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-			(at 177.8 127 0)
+			(at 177.8 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2264,7 +3066,7 @@
 			)
 		)
 		(property "Description" "Samtec FW-xx-03-G-D-085-315 series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-			(at 180.34 127 0)
+			(at 180.34 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2275,7 +3077,7 @@
 			)
 		)
 		(property "Color" "Black"
-			(at 182.88 127 0)
+			(at 182.88 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2286,7 +3088,7 @@
 			)
 		)
 		(property "Contact Plating" "Gold"
-			(at 185.42 127 0)
+			(at 185.42 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2297,7 +3099,7 @@
 			)
 		)
 		(property "Current Rating (A)" "5.2"
-			(at 187.96 127 0)
+			(at 187.96 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2308,7 +3110,7 @@
 			)
 		)
 		(property "MPN" "FW-14-03-G-D-085-315"
-			(at 190.5 127 0)
+			(at 190.5 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2319,7 +3121,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 193.04 127 0)
+			(at 193.04 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2330,7 +3132,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 195.58 127 0)
+			(at 195.58 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2341,7 +3143,7 @@
 			)
 		)
 		(property "Mounting Style" "Surface Mount"
-			(at 198.12 127 0)
+			(at 198.12 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2352,7 +3154,7 @@
 			)
 		)
 		(property "Number of Rows" "2"
-			(at 200.66 127 0)
+			(at 200.66 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2363,7 +3165,7 @@
 			)
 		)
 		(property "Pin Count" "14"
-			(at 203.2 127 0)
+			(at 203.2 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2374,7 +3176,7 @@
 			)
 		)
 		(property "Pitch (mm)" "1.27"
-			(at 205.74 127 0)
+			(at 205.74 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2385,7 +3187,7 @@
 			)
 		)
 		(property "Series" "FW-xx-03-G-D-085-315"
-			(at 208.28 127 0)
+			(at 208.28 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2396,7 +3198,7 @@
 			)
 		)
 		(property "Symbol Name" "J_FW-14-03-G-D-085-315"
-			(at 210.82 127 0)
+			(at 210.82 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2407,7 +3209,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-14-03-G-D-085-315"
-			(at 213.36 127 0)
+			(at 213.36 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2418,7 +3220,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 215.9 127 0)
+			(at 215.9 137.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3422,6 +4224,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 130.81 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b9c9ff8-9721-49e5-b3fa-f6c173e1fe40")
+		(property "Reference" "#PWR010"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 130.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e24ec04-4b7f-4fe3-aff8-756d6a0b2d5e")
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-04-03-G-D-085-315")
 		(at 127 90.17 0)
 		(unit 1)
@@ -3934,15 +4802,15 @@
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-14-03-G-D-085-315")
 		(at 152.4 45.72 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f27d1fa9-2fe1-4f66-a01e-a3069138ffe8")
 		(property "Reference" "J1"
-			(at 132.08 44.4499 90)
+			(at 132.08 46.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +4819,7 @@
 			)
 		)
 		(property "Value" "FW-14-03-G-D-085-315"
-			(at 132.08 46.9899 90)
+			(at 132.08 44.4501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:FW-14-03-G-D-085-315"
-			(at 175.26 40.64 0)
+			(at 175.26 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3971,7 +4839,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-			(at 177.8 40.64 0)
+			(at 177.8 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3982,7 +4850,7 @@
 			)
 		)
 		(property "Description" "Samtec FW-xx-03-G-D-085-315 series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-			(at 180.34 40.64 0)
+			(at 180.34 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3993,7 +4861,7 @@
 			)
 		)
 		(property "Color" "Black"
-			(at 182.88 40.64 0)
+			(at 182.88 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4004,7 +4872,7 @@
 			)
 		)
 		(property "Contact Plating" "Gold"
-			(at 185.42 40.64 0)
+			(at 185.42 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4015,7 +4883,7 @@
 			)
 		)
 		(property "Current Rating (A)" "5.2"
-			(at 187.96 40.64 0)
+			(at 187.96 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4026,7 +4894,7 @@
 			)
 		)
 		(property "MPN" "FW-14-03-G-D-085-315"
-			(at 190.5 40.64 0)
+			(at 190.5 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4037,7 +4905,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 193.04 40.64 0)
+			(at 193.04 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4048,7 +4916,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 195.58 40.64 0)
+			(at 195.58 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4059,7 +4927,7 @@
 			)
 		)
 		(property "Mounting Style" "Surface Mount"
-			(at 198.12 40.64 0)
+			(at 198.12 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4070,7 +4938,7 @@
 			)
 		)
 		(property "Number of Rows" "2"
-			(at 200.66 40.64 0)
+			(at 200.66 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4081,7 +4949,7 @@
 			)
 		)
 		(property "Pin Count" "14"
-			(at 203.2 40.64 0)
+			(at 203.2 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4092,7 +4960,7 @@
 			)
 		)
 		(property "Pitch (mm)" "1.27"
-			(at 205.74 40.64 0)
+			(at 205.74 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4103,7 +4971,7 @@
 			)
 		)
 		(property "Series" "FW-xx-03-G-D-085-315"
-			(at 208.28 40.64 0)
+			(at 208.28 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4114,7 +4982,7 @@
 			)
 		)
 		(property "Symbol Name" "J_FW-14-03-G-D-085-315"
-			(at 210.82 40.64 0)
+			(at 210.82 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4125,7 +4993,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-14-03-G-D-085-315"
-			(at 213.36 40.64 0)
+			(at 213.36 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4136,7 +5004,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 215.9 40.64 0)
+			(at 215.9 50.8 0)
 			(show_name yes)
 			(effects
 				(font
