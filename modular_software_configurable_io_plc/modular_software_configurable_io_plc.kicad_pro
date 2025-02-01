@@ -546,11 +546,107 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Plating",
+          "name": "Contact Plating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating (A)",
+          "name": "Current Rating (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Angle",
+          "name": "Mounting Angle",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Style",
+          "name": "Mounting Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Number of Rows",
+          "name": "Number of Rows",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin Count",
+          "name": "Pin Count",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch (mm)",
+          "name": "Pitch (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Symbol Name",
+          "name": "Symbol Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Trustedparts Search",
+          "name": "Trustedparts Search",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating (V)",
+          "name": "Voltage Rating (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
