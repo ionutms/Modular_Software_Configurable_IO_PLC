@@ -1057,7 +1057,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:FW-14-03-G-D-085-155"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b6560ef-945e-4f08-8061-28440989f223")
@@ -1070,7 +1070,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b9f9cca-c323-4214-805c-8f6c51166637")
@@ -1082,7 +1082,7 @@
 			)
 		)
 		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "767bd416-1ee0-4c2b-80d0-cb5ffdb22347")
