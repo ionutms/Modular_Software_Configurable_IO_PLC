@@ -15089,7 +15089,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-02-03-G-D-085-155")
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-03-03-G-D-085-155")
 		(at 251.46 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15099,7 +15099,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0ab17ac-9157-4ede-801d-99dcbde2077d")
 		(property "Reference" "J19"
-			(at 251.46 46.99 0)
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,15 +15107,15 @@
 			)
 		)
 		(property "Value" "FW-02-03-G-D-085-155"
-			(at 251.46 49.53 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-02-03-G-D-085-155"
-			(at 256.54 63.5 0)
+		(property "Footprint" "connector_footprints:FW-03-03-G-D-085-155"
+			(at 256.54 64.77 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15126,7 +15126,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-			(at 256.54 66.04 0)
+			(at 256.54 67.31 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15136,8 +15136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-			(at 256.54 68.58 0)
+		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  3 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(at 256.54 69.85 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15148,7 +15148,7 @@
 			)
 		)
 		(property "Color" "Black"
-			(at 256.54 71.12 0)
+			(at 256.54 72.39 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15159,7 +15159,7 @@
 			)
 		)
 		(property "Contact Plating" "Gold"
-			(at 256.54 73.66 0)
+			(at 256.54 74.93 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15170,7 +15170,7 @@
 			)
 		)
 		(property "Current Rating (A)" "5.2"
-			(at 256.54 76.2 0)
+			(at 256.54 77.47 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15180,8 +15180,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-02-03-G-D-085-155"
-			(at 256.54 78.74 0)
+		(property "MPN" "FW-03-03-G-D-085-155"
+			(at 256.54 80.01 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15192,7 +15192,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 256.54 81.28 0)
+			(at 256.54 82.55 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15203,7 +15203,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 256.54 83.82 0)
+			(at 256.54 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15214,7 +15214,7 @@
 			)
 		)
 		(property "Mounting Style" "Surface Mount"
-			(at 256.54 86.36 0)
+			(at 256.54 87.63 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 			)
 		)
 		(property "Number of Rows" "2"
-			(at 256.54 88.9 0)
+			(at 256.54 90.17 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15235,8 +15235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count" "2"
-			(at 256.54 91.44 0)
+		(property "Pin Count" "3"
+			(at 256.54 92.71 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15247,7 +15247,7 @@
 			)
 		)
 		(property "Pitch (mm)" "1.27"
-			(at 256.54 93.98 0)
+			(at 256.54 95.25 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15258,7 +15258,7 @@
 			)
 		)
 		(property "Series" "FW-xx-03-G-D-085-155"
-			(at 256.54 96.52 0)
+			(at 256.54 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15268,8 +15268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-02-03-G-D-085-155"
-			(at 256.54 99.06 0)
+		(property "Symbol Name" "J_FW-03-03-G-D-085-155"
+			(at 256.54 100.33 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15279,8 +15279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-02-03-G-D-085-155"
-			(at 256.54 101.6 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-03-03-G-D-085-155"
+			(at 256.54 102.87 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15291,7 +15291,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 256.54 104.14 0)
+			(at 256.54 105.41 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15312,6 +15312,12 @@
 		)
 		(pin "1"
 			(uuid "7859f9a4-e807-4762-9868-6529c216e022")
+		)
+		(pin "6"
+			(uuid "5eeb6e4e-bc7c-45ca-a82e-26d6a3bb4b18")
+		)
+		(pin "5"
+			(uuid "7cbbd9e6-c676-48a9-8dd6-5b234a24188d")
 		)
 		(instances
 			(project "modular_software_configurable_io_plc"
