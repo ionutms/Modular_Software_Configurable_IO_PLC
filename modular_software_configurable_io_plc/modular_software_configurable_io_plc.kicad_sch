@@ -3257,6 +3257,130 @@
 				)
 			)
 		)
+		(symbol "UNITED_MECHANICAL_DATA_BASE:M_9774020243R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mechanical_parts:9774020243R"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "9774020243R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "M_9774020243R_0_1"
+				(arc
+					(start -2.54 -1.905)
+					(mid 0 -2.9571)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.905)
+					(mid 0 0.8529)
+					(end 2.54 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.905)
+					(mid 0 2.9571)
+					(end -2.54 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "UNITED_MECHANICAL_DATA_BASE:M_UM108_PROFIL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8940,6 +9064,83 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_MECHANICAL_DATA_BASE:M_9774020243R")
+		(at 180.34 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ce8582-e7e1-46dc-b943-dadaa4d04758")
+		(property "Reference" "M4"
+			(at 184.15 233.0449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mechanical_parts:9774020243R"
+			(at 180.34 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+			(at 180.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+			(at 180.34 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774020243R"
+			(at 180.34 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_MODULES_DATA_BASE:MINIMAL_ADP1032")
 		(at 284.48 167.64 0)
 		(unit 1)
@@ -9006,6 +9207,83 @@
 			(project ""
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
 					(reference "MOD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MECHANICAL_DATA_BASE:M_9774020243R")
+		(at 82.55 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a280a46-4b29-4baa-92c8-05cdeb3372c1")
+		(property "Reference" "M12"
+			(at 86.36 259.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mechanical_parts:9774020243R"
+			(at 82.55 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+			(at 82.55 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+			(at 82.55 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774020243R"
+			(at 82.55 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "M12")
 					(unit 1)
 				)
 			)
@@ -12359,6 +12637,160 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_MECHANICAL_DATA_BASE:M_9774020243R")
+		(at 59.69 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e653537-9d1e-47cc-babd-a4fc0a9e5a68")
+		(property "Reference" "M6"
+			(at 63.5 250.8249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 63.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mechanical_parts:9774020243R"
+			(at 59.69 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+			(at 59.69 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+			(at 59.69 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774020243R"
+			(at 59.69 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MECHANICAL_DATA_BASE:M_9774020243R")
+		(at 167.64 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9d7796-808e-4199-9862-a7e499c99bf9")
+		(property "Reference" "M5"
+			(at 171.45 233.0449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mechanical_parts:9774020243R"
+			(at 167.64 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+			(at 167.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+			(at 167.64 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774020243R"
+			(at 167.64 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-03-03-G-D-085-155")
 		(at 219.71 240.03 0)
 		(unit 1)
@@ -13165,6 +13597,83 @@
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MECHANICAL_DATA_BASE:M_9774020243R")
+		(at 71.12 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a315d57b-6297-4977-915e-61f3de8c2e2e")
+		(property "Reference" "M7"
+			(at 74.93 250.8249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 74.93 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mechanical_parts:9774020243R"
+			(at 71.12 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+			(at 71.12 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+			(at 71.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774020243R"
+			(at 71.12 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "M7")
 					(unit 1)
 				)
 			)
@@ -14034,6 +14543,83 @@
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
 					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MECHANICAL_DATA_BASE:M_9774020243R")
+		(at 93.98 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d10cd97b-8cd7-492c-bc04-bb5ee45bb2d1")
+		(property "Reference" "M13"
+			(at 97.79 259.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 97.79 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mechanical_parts:9774020243R"
+			(at 93.98 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774020243R.pdf"
+			(at 93.98 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with internal Thread M2, 2 mm lenght"
+			(at 93.98 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774020243R"
+			(at 93.98 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "M13")
 					(unit 1)
 				)
 			)
