@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 				(at 5.08 -12.7 0)
 				(show_name)
 				(effects
@@ -129,7 +129,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Style" "Through Hole"
+			(property "Mounting Style" "Surface Mount"
 				(at 5.08 -30.48 0)
 				(show_name)
 				(effects
@@ -688,7 +688,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  8 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  8 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 				(at 5.08 -20.32 0)
 				(show_name)
 				(effects
@@ -765,7 +765,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Style" "Through Hole"
+			(property "Mounting Style" "Surface Mount"
 				(at 5.08 -38.1 0)
 				(show_name)
 				(effects
@@ -1204,7 +1204,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 				(at 5.08 -27.94 0)
 				(show_name)
 				(effects
@@ -1281,7 +1281,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Style" "Through Hole"
+			(property "Mounting Style" "Surface Mount"
 				(at 5.08 -45.72 0)
 				(show_name)
 				(effects
@@ -3447,11 +3447,12 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "M"
-				(at 0 0 0)
+				(at 5.08 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" ""
@@ -3463,29 +3464,32 @@
 				)
 			)
 			(property "Footprint" "mechanical_parts:2959696"
-				(at 0 0 0)
+				(at 5.08 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-pc/products/side-element-um108-sefe-l-2959696"
+				(at 5.08 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Side element with foot, 5 mm wide (left), for mounting on NS 32 or NS 35/7.5. PCB width: 107.5 mm"
+				(at 5.08 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -3508,11 +3512,12 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "M"
-				(at 0 0 0)
+				(at 5.08 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" ""
@@ -3524,29 +3529,32 @@
 				)
 			)
 			(property "Footprint" "mechanical_parts:2959683"
-				(at 0 0 0)
+				(at 5.08 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-pc/products/side-element-um108-sefe-r-2959683"
+				(at 5.08 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Side element with foot, 5 mm wide (right), for mounting on NS 32 or NS 35/7.5. PCB width: 107.5 mm"
+				(at 5.08 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -3857,16 +3865,6 @@
 					(hide yes)
 				)
 			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/minimal_adin1110.wrl"
-				(at 2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
 			(symbol "MINIMAL_ADIN1110_0_1"
 				(arc
 					(start -3.81 -2.032)
@@ -4156,16 +4154,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/minimal_adp1032.wrl"
-				(at 25.4 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -5286,16 +5274,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/minimal_ltc9111.wrl"
-				(at 2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -8594,7 +8572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 172.72 80.01 0)
 			(show_name yes)
 			(effects
@@ -8671,7 +8649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 172.72 97.79 0)
 			(show_name yes)
 			(effects
@@ -9135,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 55.88 160.02 0)
 			(show_name yes)
 			(effects
@@ -9212,7 +9190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 55.88 177.8 0)
 			(show_name yes)
 			(effects
@@ -9331,7 +9309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18228203-efc4-40df-a5ca-e651b89c55a7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -9381,7 +9359,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -9435,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 304.8 191.77 0)
 			(show_name yes)
 			(effects
@@ -9512,7 +9490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 304.8 173.99 0)
 			(show_name yes)
 			(effects
@@ -9671,7 +9649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  8 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  8 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 265.43 142.24 0)
 			(show_name yes)
 			(effects
@@ -9748,7 +9726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 283.21 142.24 0)
 			(show_name yes)
 			(effects
@@ -10597,7 +10575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e2ecd60-d6ca-47ed-8870-b9a13febe353")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 170.18 121.92 0)
 			(effects
 				(font
@@ -10647,7 +10625,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -10704,7 +10682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  14 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 129.54 232.41 0)
 			(show_name yes)
 			(effects
@@ -10781,7 +10759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 147.32 232.41 0)
 			(show_name yes)
 			(effects
@@ -10972,7 +10950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fe2164a-ab10-4fbc-ac0e-ee73989abc40")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 134.62 121.92 0)
 			(effects
 				(font
@@ -11022,7 +11000,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -11076,7 +11054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 121.92 125.73 0)
 			(show_name yes)
 			(effects
@@ -11153,7 +11131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 121.92 143.51 0)
 			(show_name yes)
 			(effects
@@ -11311,7 +11289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 121.92 102.87 0)
 			(show_name yes)
 			(effects
@@ -11388,7 +11366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 121.92 120.65 0)
 			(show_name yes)
 			(effects
@@ -11507,7 +11485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47462769-b074-4dd0-a908-a9c581f04894")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -11557,7 +11535,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -11910,7 +11888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 314.96 144.78 0)
 			(show_name yes)
 			(effects
@@ -11987,7 +11965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 314.96 162.56 0)
 			(show_name yes)
 			(effects
@@ -12106,7 +12084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f2c9a9-c443-4f93-b34f-275e8e42fba7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 185.42 76.2 0)
 			(effects
 				(font
@@ -12156,7 +12134,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -12172,7 +12150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9f82a4-c054-4447-a944-c4dece1a52f9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 303.53 213.36 0)
 			(effects
 				(font
@@ -12222,7 +12200,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -12238,7 +12216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65808487-3876-4ceb-b1f6-769be415b926")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 260.35 190.5 0)
 			(effects
 				(font
@@ -12288,7 +12266,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -12342,7 +12320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 172.72 100.33 0)
 			(show_name yes)
 			(effects
@@ -12419,7 +12397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 172.72 82.55 0)
 			(show_name yes)
 			(effects
@@ -12576,7 +12554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 132.08 54.61 0)
 			(show_name yes)
 			(effects
@@ -12653,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 132.08 36.83 0)
 			(show_name yes)
 			(effects
@@ -12772,7 +12750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f95be33-7bba-464b-90a0-5b37426d02f5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 236.22 161.29 0)
 			(effects
 				(font
@@ -12822,7 +12800,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -12838,7 +12816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82991269-abcb-46af-bed8-85a583e3c709")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 236.22 201.93 0)
 			(effects
 				(font
@@ -12888,7 +12866,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -12904,7 +12882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82fa720d-6b0e-432d-92c5-6193450f99bc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 279.4 140.97 0)
 			(effects
 				(font
@@ -12954,7 +12932,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -12997,7 +12975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/en-pc/products/side-element-um108-sefe-l-2959696"
 			(at 345.44 190.5 0)
 			(effects
 				(font
@@ -13006,7 +12984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Side element with foot, 5 mm wide (left), for mounting on NS 32 or NS 35/7.5. PCB width: 107.5 mm"
 			(at 345.44 190.5 0)
 			(effects
 				(font
@@ -13073,7 +13051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 238.76 114.3 0)
 			(show_name yes)
 			(effects
@@ -13150,7 +13128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 238.76 132.08 0)
 			(show_name yes)
 			(effects
@@ -13504,7 +13482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a336bf9-5285-46db-a2d0-a6d4c36bee40")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 303.53 140.97 0)
 			(effects
 				(font
@@ -13554,7 +13532,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -13570,7 +13548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b9c9ff8-9721-49e5-b3fa-f6c173e1fe40")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 80.01 242.57 0)
 			(effects
 				(font
@@ -13620,7 +13598,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -14445,7 +14423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  8 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  8 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 265.43 193.04 0)
 			(show_name yes)
 			(effects
@@ -14522,7 +14500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 283.21 193.04 0)
 			(show_name yes)
 			(effects
@@ -14894,7 +14872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefc5af8-c188-4846-87ed-a5e1c925b914")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -14944,7 +14922,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -14960,7 +14938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda8d955-97b9-4a0e-98eb-993fb519ff92")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -15010,7 +14988,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -15064,7 +15042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 307.34 63.5 0)
 			(show_name yes)
 			(effects
@@ -15141,7 +15119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 307.34 45.72 0)
 			(show_name yes)
 			(effects
@@ -15287,7 +15265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/en-pc/products/side-element-um108-sefe-r-2959683"
 			(at 392.43 190.5 0)
 			(effects
 				(font
@@ -15296,7 +15274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Side element with foot, 5 mm wide (right), for mounting on NS 32 or NS 35/7.5. PCB width: 107.5 mm"
 			(at 392.43 190.5 0)
 			(effects
 				(font
@@ -15388,7 +15366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3de29b8-4da5-4611-a18f-8d777b3ea7d0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 185.42 121.92 0)
 			(effects
 				(font
@@ -15438,7 +15416,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -15803,7 +15781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 290.83 217.17 0)
 			(show_name yes)
 			(effects
@@ -15880,7 +15858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 290.83 234.95 0)
 			(show_name yes)
 			(effects
@@ -16038,7 +16016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 266.7 114.3 0)
 			(show_name yes)
 			(effects
@@ -16115,7 +16093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 266.7 132.08 0)
 			(show_name yes)
 			(effects
@@ -16272,7 +16250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 57.15 137.16 0)
 			(show_name yes)
 			(effects
@@ -16349,7 +16327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 57.15 154.94 0)
 			(show_name yes)
 			(effects
@@ -16468,7 +16446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b70119-64f5-4698-8ff3-11f84037f18a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 231.14 144.78 0)
 			(effects
 				(font
@@ -16518,7 +16496,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -16534,7 +16512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c40cd1-d3be-4b4a-a737-1ed23c78ede6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 279.4 213.36 0)
 			(effects
 				(font
@@ -16584,7 +16562,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -16600,7 +16578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e86219-b69d-4d84-b955-fcc872e24a21")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -16650,7 +16628,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -16675,7 +16653,7 @@
 				)
 			)
 		)
-		(property "Value" "CLP-102-02-G-D-BE"
+		(property "Value" "CLP-103-02-G-D-BE"
 			(at 353.06 68.58 0)
 			(effects
 				(font
@@ -16907,7 +16885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db84aa1f-4b88-4e45-b481-8323c801a865")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -16957,7 +16935,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -17046,7 +17024,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-02-03-G-D-085-155"
+		(property "Value" "FW-03-03-G-D-085-155"
 			(at 251.46 48.26 0)
 			(effects
 				(font
@@ -17316,7 +17294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 290.83 144.78 0)
 			(show_name yes)
 			(effects
@@ -17393,7 +17371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 290.83 162.56 0)
 			(show_name yes)
 			(effects
@@ -17550,7 +17528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 31.75 137.16 0)
 			(show_name yes)
 			(effects
@@ -17627,7 +17605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 31.75 154.94 0)
 			(show_name yes)
 			(effects
@@ -17785,7 +17763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 172.72 102.87 0)
 			(show_name yes)
 			(effects
@@ -17862,7 +17840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 172.72 120.65 0)
 			(show_name yes)
 			(effects
@@ -18796,7 +18774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 30.48 156.21 0)
 			(show_name yes)
 			(effects
@@ -18873,7 +18851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 30.48 173.99 0)
 			(show_name yes)
 			(effects
