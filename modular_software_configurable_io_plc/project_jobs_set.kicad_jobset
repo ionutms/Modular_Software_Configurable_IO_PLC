@@ -23,6 +23,18 @@
         "record_output": true
       },
       "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "ec5fb4f4-d7d7-4a6e-b607-eb803cb0dd60",
+      "settings": {
+        "command": "kicad-cli pcb export glb modular_software_configurable_io_plc.kicad_pcb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "",
+        "record_output": true
+      },
+      "type": "special_execute"
     }
   ],
   "meta": {
