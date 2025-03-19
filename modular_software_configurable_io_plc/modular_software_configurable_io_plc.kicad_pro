@@ -510,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": ".glb",
       "svg": "",
       "vrml": "modular_software_configurable_io_plc.wrl"
     },
