@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "3f59452f-6a8c-418b-aa40-6fa93922e314",
+      "settings": {
+        "command": "kicad-cli pcb export vrml modular_software_configurable_io_plc.kicad_pcb",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "3f59452f-6a8c-418b-aa40-6fa93922e314.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "f33c07a6-1788-47f4-b183-4acd87220e76",
+      "settings": {
+        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o modular_software_configurable_io_plc_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 0.7 --pan '0,0,0'",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "f33c07a6-1788-47f4-b183-4acd87220e76.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "02298859-29c3-431c-8b8a-dde0ba5be59e",
+      "only": [],
+      "settings": {
+        "output_path": "${KIPRJMOD}"
+      },
+      "type": "folder"
+    }
+  ]
+}
