@@ -14,6 +14,18 @@
     },
     {
       "description": "",
+      "id": "ec5fb4f4-d7d7-4a6e-b607-eb803cb0dd60",
+      "settings": {
+        "command": "kicad-cli pcb export glb modular_software_configurable_io_plc.kicad_pcb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
       "id": "f33c07a6-1788-47f4-b183-4acd87220e76",
       "settings": {
         "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o modular_software_configurable_io_plc_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 0.7 --pan '0,0,0'",
@@ -26,9 +38,9 @@
     },
     {
       "description": "",
-      "id": "ec5fb4f4-d7d7-4a6e-b607-eb803cb0dd60",
+      "id": "a51f47f1-d09a-487b-98c1-cc02d850176c",
       "settings": {
-        "command": "kicad-cli pcb export glb modular_software_configurable_io_plc.kicad_pcb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
+        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o modular_software_configurable_io_plc_top.png --side top --background transparent --quality high --zoom 0.7 --pan '0,0,0'",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "",
