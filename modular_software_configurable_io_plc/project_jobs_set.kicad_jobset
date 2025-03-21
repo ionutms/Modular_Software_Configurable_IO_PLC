@@ -2,24 +2,24 @@
   "jobs": [
     {
       "description": "",
-      "id": "3f59452f-6a8c-418b-aa40-6fa93922e314",
+      "id": "ec5fb4f4-d7d7-4a6e-b607-eb803cb0dd60",
       "settings": {
-        "command": "kicad-cli pcb export vrml modular_software_configurable_io_plc.kicad_pcb",
+        "command": "kicad-cli pcb export glb modular_software_configurable_io_plc.kicad_pcb -o docs\\3d_models\\modular_software_configurable_io_plc.glb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "3f59452f-6a8c-418b-aa40-6fa93922e314.log",
+        "output_filename": "export_glb.log",
         "record_output": true
       },
       "type": "special_execute"
     },
     {
       "description": "",
-      "id": "ec5fb4f4-d7d7-4a6e-b607-eb803cb0dd60",
+      "id": "3f59452f-6a8c-418b-aa40-6fa93922e314",
       "settings": {
-        "command": "kicad-cli pcb export glb modular_software_configurable_io_plc.kicad_pcb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
+        "command": "kicad-cli pcb export vrml modular_software_configurable_io_plc.kicad_pcb -o docs\\3d_models\\modular_software_configurable_io_plc.wrl",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "",
+        "output_filename": "export_wrl.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -28,10 +28,10 @@
       "description": "",
       "id": "f33c07a6-1788-47f4-b183-4acd87220e76",
       "settings": {
-        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o modular_software_configurable_io_plc_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 0.7 --pan '0,0,0'",
+        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o docs\\pictures\\modular_software_configurable_io_plc_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 0.7 --pan '0,0.6,0'",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "f33c07a6-1788-47f4-b183-4acd87220e76.log",
+        "output_filename": "export_side_png.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -40,10 +40,34 @@
       "description": "",
       "id": "a51f47f1-d09a-487b-98c1-cc02d850176c",
       "settings": {
-        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o modular_software_configurable_io_plc_top.png --side top --background transparent --quality high --zoom 0.7 --pan '0,0,0'",
+        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o docs\\pictures\\modular_software_configurable_io_plc_top.png --side top --background transparent --quality high --zoom 0.7 --pan '0,0,0'",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "",
+        "output_filename": "export_top_png.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "bfc7bda9-7e9a-4603-8b47-46f2cf904bfc",
+      "settings": {
+        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o docs\\pictures\\modular_software_configurable_io_plc_front.png --side front --background transparent --quality high --zoom 1.4 --pan '0,0.5,0'",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "export_front_png.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "d17f9f14-a22a-43c2-9c2e-d53bad81289c",
+      "settings": {
+        "command": "kicad-cli pcb render modular_software_configurable_io_plc.kicad_pcb -o docs\\pictures\\modular_software_configurable_io_plc_right.png --side right --background transparent --quality high --zoom 1.4 --pan '0,0.5,0'",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "export_right_png.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -55,10 +79,27 @@
   "outputs": [
     {
       "description": "",
-      "id": "02298859-29c3-431c-8b8a-dde0ba5be59e",
-      "only": [],
+      "id": "1e302fb4-fe24-444b-94e1-2bd975b20ee1",
+      "only": [
+        "ec5fb4f4-d7d7-4a6e-b607-eb803cb0dd60",
+        "3f59452f-6a8c-418b-aa40-6fa93922e314"
+      ],
       "settings": {
-        "output_path": "${KIPRJMOD}"
+        "output_path": "${KIPRJMOD}\\docs\\3d_models"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "",
+      "id": "199a92d7-c637-4109-bddf-f2cb0313f00b",
+      "only": [
+        "f33c07a6-1788-47f4-b183-4acd87220e76",
+        "a51f47f1-d09a-487b-98c1-cc02d850176c",
+        "bfc7bda9-7e9a-4603-8b47-46f2cf904bfc",
+        "d17f9f14-a22a-43c2-9c2e-d53bad81289c"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}\\docs\\pictures"
       },
       "type": "folder"
     }
