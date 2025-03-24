@@ -3778,6 +3778,18 @@
 					)
 				)
 				(arc
+					(start 3.302 1.27)
+					(mid 3.6612 1.1212)
+					(end 3.81 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
 					(start 3.81 -0.762)
 					(mid 3.6606 -1.1206)
 					(end 3.302 -1.27)
@@ -3793,18 +3805,6 @@
 					(pts
 						(xy 3.302 1.27) (xy -3.302 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.302 1.27)
-					(mid 3.6612 1.1212)
-					(end 3.81 0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -3975,9 +3975,9 @@
 					)
 				)
 				(arc
-					(start 1.27 2.54)
-					(mid 1.6292 2.3912)
-					(end 1.778 2.032)
+					(start 1.78 -2.034)
+					(mid 1.6299 -2.3913)
+					(end 1.272 -2.542)
 					(stroke
 						(width 0)
 						(type default)
@@ -3987,9 +3987,9 @@
 					)
 				)
 				(arc
-					(start 1.78 -2.034)
-					(mid 1.6299 -2.3913)
-					(end 1.272 -2.542)
+					(start 1.27 2.54)
+					(mid 1.6292 2.3912)
+					(end 1.778 2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -4083,9 +4083,9 @@
 					)
 				)
 				(arc
-					(start 2.542 0.764)
-					(mid 2.9006 0.6146)
-					(end 3.05 0.256)
+					(start 3.05 -0.256)
+					(mid 2.8992 -0.6121)
+					(end 2.542 -0.764)
 					(stroke
 						(width 0)
 						(type default)
@@ -4095,9 +4095,9 @@
 					)
 				)
 				(arc
-					(start 3.05 -0.256)
-					(mid 2.8992 -0.6121)
-					(end 2.542 -0.764)
+					(start 2.542 0.764)
+					(mid 2.9006 0.6146)
+					(end 3.05 0.256)
 					(stroke
 						(width 0)
 						(type default)
@@ -11636,240 +11636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-02-03-G-D-085-155")
-		(at 114.3 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0d6fea-a30d-43d0-9123-87480dbab0e4")
-		(property "Reference" "J29"
-			(at 114.3 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FW-02-03-G-D-085-155"
-			(at 114.3 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connector_footprints:FW-02-03-G-D-085-155"
-			(at 119.38 218.44 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-			(at 119.38 220.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-			(at 119.38 223.52 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Color" "Black"
-			(at 119.38 226.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Contact Plating" "Gold"
-			(at 119.38 228.6 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Current Rating (A)" "5.2"
-			(at 119.38 231.14 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FW-02-03-G-D-085-155"
-			(at 119.38 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 119.38 236.22 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Angle" "Vertical"
-			(at 119.38 238.76 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Style" "Surface Mount"
-			(at 119.38 241.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Number of Rows" "2"
-			(at 119.38 243.84 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 119.38 246.38 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pitch (mm)" "1.27"
-			(at 119.38 248.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "FW-xx-03-G-D-085-155"
-			(at 119.38 251.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Symbol Name" "J_FW-02-03-G-D-085-155"
-			(at 119.38 254 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-02-03-G-D-085-155"
-			(at 119.38 256.54 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating (V)" "300"
-			(at 119.38 259.08 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f1c85a64-cb07-44c0-8675-8b0bb299a3b0")
-		)
-		(pin "4"
-			(uuid "9857dc0f-3846-4433-95cb-0788c0a6bc9e")
-		)
-		(pin "2"
-			(uuid "c21fea7e-63c5-438b-82f7-fa827ebef560")
-		)
-		(pin "1"
-			(uuid "c93c8696-15dc-47f9-92d4-df21e9a50249")
-		)
-		(instances
-			(project "modular_software_configurable_io_plc"
-				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "J29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_CLP-102-02-G-D-BE")
 		(at 309.88 132.08 0)
 		(unit 1)
@@ -14162,6 +13928,246 @@
 			(project ""
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
 					(reference "MOD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-03-03-G-D-085-155")
+		(at 116.84 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968f4e03-6512-4fc7-b034-649fba992971")
+		(property "Reference" "J29"
+			(at 116.84 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FW-02-03-G-D-085-155"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:FW-03-03-G-D-085-155"
+			(at 121.92 219.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(at 121.92 222.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  3 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(at 121.92 224.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 121.92 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Gold"
+			(at 121.92 229.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 121.92 232.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FW-03-03-G-D-085-155"
+			(at 121.92 234.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 121.92 237.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 121.92 240.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 121.92 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 121.92 245.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "3"
+			(at 121.92 247.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 121.92 250.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FW-xx-03-G-D-085-155"
+			(at 121.92 252.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FW-03-03-G-D-085-155"
+			(at 121.92 255.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-03-03-G-D-085-155"
+			(at 121.92 257.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 121.92 260.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "85b6535a-cd02-4f07-96da-65c3537e7400")
+		)
+		(pin "4"
+			(uuid "878170f7-074e-421e-b8b5-b8d2b4c4cbf6")
+		)
+		(pin "2"
+			(uuid "3a8d593d-32c8-46d4-990a-3355894aa8da")
+		)
+		(pin "1"
+			(uuid "43f82c16-d8d1-4770-be4c-5878893e294e")
+		)
+		(pin "5"
+			(uuid "1dbca331-0553-48b2-b4e9-1a1a50b289b1")
+		)
+		(pin "6"
+			(uuid "ca30048c-0dcb-4022-880e-14c0c9fc31b3")
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(reference "J29")
 					(unit 1)
 				)
 			)
