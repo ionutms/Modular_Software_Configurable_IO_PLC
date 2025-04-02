@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -717,6 +718,10 @@
     [
       "b764ffe3-5231-4422-b46d-b0de4c44c7b4",
       "Root"
+    ],
+    [
+      "1ba52bb1-dfa5-4e79-b99c-b54242d8ec88",
+      "MCU"
     ]
   ],
   "text_variables": {}

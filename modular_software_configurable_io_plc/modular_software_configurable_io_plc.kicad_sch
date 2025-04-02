@@ -16238,240 +16238,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_CLP-102-02-G-D-BE")
-		(at 62.23 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4e24e83-da40-44bc-886f-2d43e8b67b4f")
-		(property "Reference" "J33"
-			(at 62.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CLP-102-02-G-D-BE"
-			(at 62.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
-			(at 57.15 132.08 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
-			(at 57.15 134.62 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
-			(at 57.15 137.16 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Color" "Black"
-			(at 57.15 139.7 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Contact Plating" "Tin"
-			(at 57.15 142.24 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Current Rating (A)" "5.2"
-			(at 57.15 144.78 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CLP-102-02-G-D-BE"
-			(at 57.15 147.32 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 57.15 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Angle" "Vertical"
-			(at 57.15 152.4 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Style" "Surface Mount"
-			(at 57.15 154.94 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Number of Rows" "2"
-			(at 57.15 157.48 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 57.15 160.02 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pitch (mm)" "1.27"
-			(at 57.15 162.56 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CLP-1xx-02-G-D-BE"
-			(at 57.15 165.1 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
-			(at 57.15 167.64 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
-			(at 57.15 170.18 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating (V)" "300"
-			(at 57.15 172.72 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e151f11-d33f-451e-9b8b-914a5b87084a")
-		)
-		(pin "4"
-			(uuid "d28372c4-17b9-4257-ba43-3b85296ab064")
-		)
-		(pin "2"
-			(uuid "b63280b4-cf8b-46b2-a045-01aff43b359c")
-		)
-		(pin "3"
-			(uuid "f778a12e-f69f-4de7-b1ab-71eb865eb068")
-		)
-		(instances
-			(project "modular_software_configurable_io_plc"
-				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "J33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 231.14 138.43 0)
 		(unit 1)
@@ -18762,240 +18528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_CLP-102-02-G-D-BE")
-		(at 35.56 143.51 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f45668d1-bbd5-4425-a770-774bd727381e")
-		(property "Reference" "J32"
-			(at 35.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CLP-102-02-G-D-BE"
-			(at 35.56 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
-			(at 30.48 151.13 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
-			(at 30.48 153.67 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
-			(at 30.48 156.21 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Color" "Black"
-			(at 30.48 158.75 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Contact Plating" "Tin"
-			(at 30.48 161.29 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Current Rating (A)" "5.2"
-			(at 30.48 163.83 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CLP-102-02-G-D-BE"
-			(at 30.48 166.37 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 30.48 168.91 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Angle" "Vertical"
-			(at 30.48 171.45 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounting Style" "Surface Mount"
-			(at 30.48 173.99 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Number of Rows" "2"
-			(at 30.48 176.53 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 30.48 179.07 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pitch (mm)" "1.27"
-			(at 30.48 181.61 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CLP-1xx-02-G-D-BE"
-			(at 30.48 184.15 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
-			(at 30.48 186.69 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
-			(at 30.48 189.23 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating (V)" "300"
-			(at 30.48 191.77 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04476c6b-9716-44d5-9725-e63afbbb8c26")
-		)
-		(pin "4"
-			(uuid "7b78fb63-ce6e-44c7-84ac-545136f2cd39")
-		)
-		(pin "2"
-			(uuid "a3181e94-a915-4cae-986f-ecb4268a1cff")
-		)
-		(pin "3"
-			(uuid "d8221e66-76cf-4ed7-bc4a-193e4e8185a7")
-		)
-		(instances
-			(project "modular_software_configurable_io_plc"
-				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
-					(reference "J32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_MODULES_DATA_BASE:MINIMAL_LT8304")
 		(at 52.07 133.35 0)
 		(unit 1)
@@ -19056,6 +18588,49 @@
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
 					(reference "MOD8")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 60.96)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ba52bb1-dfa5-4e79-b99c-b54242d8ec88")
+		(property "Sheetname" "MCU"
+			(at 49.53 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 49.53 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4"
+					(page "2")
 				)
 			)
 		)
