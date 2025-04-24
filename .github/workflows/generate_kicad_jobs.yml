@@ -142,18 +142,26 @@ jobs:
         if: steps.find-files.outputs.project_found == 'true'
         run: docker pull ionutms/kicad_9:V1.0
 
-      # Use the entrypoint script provided by the Docker image
+      # Modified to include the 3D model setup directly instead of using entrypoint
       - name: Generate KiCad outputs
         if: steps.find-files.outputs.project_found == 'true'
         run: |
           PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
           
-          # Run KiCad operations letting the entrypoint handle 3D model setup
+          # Run KiCad operations with inline 3D model setup
           docker run --rm -u $(id -u):$(id -g) \
             -v ${{ github.workspace }}:/kicad_project \
             -e HOME=/tmp/home \
             ionutms/kicad_9:V1.0 \
             bash -c "set -e && \
+              # Setup 3D models directly (replacing entrypoint functionality)
+              if [ -d /usr/share/3D_Models_Vault ]; then
+                cd /usr/share/3D_Models_Vault && git pull
+              else
+                mkdir -p /usr/share && \
+                git clone https://github.com/ionutms/3D_Models_Vault.git /usr/share/3D_Models_Vault
+              fi && \
+              
               # Create necessary directories
               mkdir -p /tmp/home/.config/kicad/9.0/colors \
               /tmp/home/.local/share/kicad/9.0/3rdparty/colors && \
@@ -161,7 +169,7 @@ jobs:
               # Set environment variables
               export HOME=/tmp/home && \
               
-              # Configure KiCad to use 3D models (already handled by entrypoint)
+              # Configure KiCad to use 3D models
               echo '{\"environment\":{\"vars\":{\"KICAD9_3D_MODELS_VAULT\":\"/usr/share/3D_Models_Vault/\"}}}' > /tmp/home/.config/kicad/9.0/kicad_common.json && \
               
               # Setup Gruvbox theme if schematic found
@@ -174,13 +182,13 @@ jobs:
                   --output '/tmp/schematic.pdf' \
                   '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' \
                   -t gruvbox && \
-                cp /tmp/schematic.pdf '/kicad_project/${PROJECT_NAME}/docs/schematics/${PROJECT_NAME}_schematics.pdf'
+                cp /tmp/schematic.pdf \"/kicad_project/$PROJECT_NAME/docs/schematics/${PROJECT_NAME}_schematics.pdf\"
               fi && \
 
               # Generate PCB render top view if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o /kicad_project/${PROJECT_NAME}/docs/pictures/${PROJECT_NAME}_top.png \
+                  -o \"/kicad_project/$PROJECT_NAME/docs/pictures/${PROJECT_NAME}_top.png\" \
                   --background transparent \
                   --quality high \
                   --zoom ${{ steps.kicad-config.outputs.top_view_zoom_factor }}
@@ -189,7 +197,7 @@ jobs:
               # Generate PCB render side view if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o /kicad_project/${PROJECT_NAME}/docs/pictures/${PROJECT_NAME}_side.png \
+                  -o \"/kicad_project/$PROJECT_NAME/docs/pictures/${PROJECT_NAME}_side.png\" \
                   --background transparent \
                   --quality high \
                   --rotate ${{ steps.kicad-config.outputs.side_view_rotate }} \
