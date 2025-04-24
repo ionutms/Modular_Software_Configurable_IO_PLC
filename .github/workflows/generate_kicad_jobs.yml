@@ -96,7 +96,7 @@ jobs:
           chmod -R 777 "$PROJECT_NAME/docs"
           echo "Created project-specific directories at $PROJECT_NAME/docs"
 
-      # Extract configuration values once
+      # Extract configuration values once - with proper trimming
       - name: Extract KiCad configuration
         id: kicad-config
         if: steps.find-files.outputs.pcb_found == 'true'
@@ -112,26 +112,26 @@ jobs:
           if [ -f ".github/kicad-config.yml" ]; then
             echo "Found configuration file"
             
-            # Extract zoom factor
-            SIDE_VIEW_ZOOM_FACTOR=$(grep 'side_view_zoom_factor:' .github/kicad-config.yml | sed 's/side_view_zoom_factor: *//')
+            # Extract zoom factor with proper trimming
+            SIDE_VIEW_ZOOM_FACTOR=$(grep 'side_view_zoom_factor:' .github/kicad-config.yml | sed 's/side_view_zoom_factor: *//' | tr -d '\n\r')
             if [ ! -z "$SIDE_VIEW_ZOOM_FACTOR" ]; then
               echo "side_view_zoom_factor=$SIDE_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
             fi
             
-            # Extract zoom factor
-            TOP_VIEW_ZOOM_FACTOR=$(grep 'top_view_zoom_factor:' .github/kicad-config.yml | sed 's/top_view_zoom_factor: *//')
+            # Extract top view zoom factor with proper trimming
+            TOP_VIEW_ZOOM_FACTOR=$(grep 'top_view_zoom_factor:' .github/kicad-config.yml | sed 's/top_view_zoom_factor: *//' | tr -d '\n\r')
             if [ ! -z "$TOP_VIEW_ZOOM_FACTOR" ]; then
               echo "top_view_zoom_factor=$TOP_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
             fi
             
-            # Extract rotate values - preserve quotes
-            SIDE_VIEW_ROTATE=$(grep 'side_view_rotate:' .github/kicad-config.yml | sed 's/side_view_rotate: *//')
+            # Extract rotate values - preserve quotes but trim whitespace
+            SIDE_VIEW_ROTATE=$(grep 'side_view_rotate:' .github/kicad-config.yml | sed 's/side_view_rotate: *//' | tr -d '\n\r')
             if [ ! -z "$SIDE_VIEW_ROTATE" ]; then
               echo "side_view_rotate=$SIDE_VIEW_ROTATE" >> $GITHUB_OUTPUT
             fi
             
-            # Extract pan values - preserve quotes
-            SIDE_VIEW_PAN=$(grep 'side_view_pan:' .github/kicad-config.yml | sed 's/side_view_pan: *//')
+            # Extract pan values - preserve quotes but trim whitespace
+            SIDE_VIEW_PAN=$(grep 'side_view_pan:' .github/kicad-config.yml | sed 's/side_view_pan: *//' | tr -d '\n\r')
             if [ ! -z "$SIDE_VIEW_PAN" ]; then
               echo "side_view_pan=$SIDE_VIEW_PAN" >> $GITHUB_OUTPUT
             fi
