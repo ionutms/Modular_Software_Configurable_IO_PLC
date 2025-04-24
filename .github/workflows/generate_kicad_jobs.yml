@@ -142,7 +142,7 @@ jobs:
         if: steps.find-files.outputs.project_found == 'true'
         run: docker pull ionutms/kicad_9:V1.0
 
-      # Combined KiCad operations - run all tasks in a single container
+      # Combined KiCad operations - run all tasks in a single container with git pull
       - name: Generate KiCad outputs
         if: steps.find-files.outputs.project_found == 'true'
         run: |
@@ -157,6 +157,11 @@ jobs:
             -e HOME=/tmp/home \
             ionutms/kicad_9:V1.0 \
             bash -c "set -e && \
+              # Update 3D models repository first
+              echo 'Updating 3D Models repository...' && \
+              cd /usr/share/3D_Models_Vault && git pull && \
+              echo '3D Models repository updated successfully' && \
+              
               # Create necessary directories
               mkdir -p /tmp/home/.config/kicad/9.0/colors \
               /tmp/home/.local/share/kicad/9.0/3rdparty/colors \
