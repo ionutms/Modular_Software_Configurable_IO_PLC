@@ -159,6 +159,7 @@ jobs:
             bash -c "set -e && \
               # Update 3D models repository first
               echo 'Updating 3D Models repository...' && \
+              git config --global --add safe.directory /usr/share/3D_Models_Vault && \
               cd /usr/share/3D_Models_Vault && git pull && \
               echo '3D Models repository updated successfully' && \
               
