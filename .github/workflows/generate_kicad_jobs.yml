@@ -155,8 +155,12 @@ jobs:
           docker run --rm -u $(id -u):$(id -g) \
             -v ${{ github.workspace }}:/kicad_project \
             -e HOME=/tmp/home \
+            -e PROJECT_NAME="$PROJECT_NAME" \
             ionutms/kicad_9:V1.0 \
             bash -c "set -e && \
+              # Create HOME directory structure first
+              mkdir -p /tmp/home && \
+              
               # Update 3D models repository first
               echo 'Updating 3D Models repository...' && \
               git config --global --add safe.directory /usr/share/3D_Models_Vault && \
