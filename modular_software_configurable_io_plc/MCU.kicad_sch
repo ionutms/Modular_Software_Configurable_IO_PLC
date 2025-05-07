@@ -5,7 +5,7 @@
 	(uuid "18e67e00-9212-488c-bc18-e7b39fb6f4ad")
 	(paper "A4")
 	(lib_symbols
-		(symbol "UNITED_CONNECTORS_DATA_BASE:J_FW-41-03-G-D-085-155"
+		(symbol "UNITED_CONNECTORS_DATA_BASE:J_CLP-102-02-G-D-BE"
 			(pin_names
 				(offset 0.254)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 5.08 54.61 0)
+				(at 5.08 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FW-41-03-G-D-085-155"
-				(at 5.08 -54.61 0)
+			(property "Value" "CLP-102-02-G-D-BE"
+				(at 5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,8 +30,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "connector_footprints:FW-41-03-G-D-085-155"
-				(at 5.08 -57.15 0)
+			(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+				(at 5.08 -7.62 0)
 				(show_name)
 				(effects
 					(font
@@ -41,8 +41,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-				(at 5.08 -59.69 0)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+				(at 5.08 -10.16 0)
 				(show_name)
 				(effects
 					(font
@@ -52,8 +52,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  41 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-				(at 5.08 -62.23 0)
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+				(at 5.08 -12.7 0)
 				(show_name)
 				(effects
 					(font
@@ -64,7 +64,7 @@
 				)
 			)
 			(property "Color" "Black"
-				(at 5.08 -64.77 0)
+				(at 5.08 -15.24 0)
 				(show_name)
 				(effects
 					(font
@@ -74,8 +74,8 @@
 					(hide yes)
 				)
 			)
-			(property "Contact Plating" "Gold"
-				(at 5.08 -67.31 0)
+			(property "Contact Plating" "Tin"
+				(at 5.08 -17.78 0)
 				(show_name)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 				)
 			)
 			(property "Current Rating (A)" "5.2"
-				(at 5.08 -69.85 0)
+				(at 5.08 -20.32 0)
 				(show_name)
 				(effects
 					(font
@@ -96,8 +96,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "FW-41-03-G-D-085-155"
-				(at 5.08 -72.39 0)
+			(property "MPN" "CLP-102-02-G-D-BE"
+				(at 5.08 -22.86 0)
 				(show_name)
 				(effects
 					(font
@@ -108,7 +108,7 @@
 				)
 			)
 			(property "Manufacturer" "Samtec"
-				(at 5.08 -74.93 0)
+				(at 5.08 -25.4 0)
 				(show_name)
 				(effects
 					(font
@@ -119,7 +119,7 @@
 				)
 			)
 			(property "Mounting Angle" "Vertical"
-				(at 5.08 -77.47 0)
+				(at 5.08 -27.94 0)
 				(show_name)
 				(effects
 					(font
@@ -130,7 +130,7 @@
 				)
 			)
 			(property "Mounting Style" "Surface Mount"
-				(at 5.08 -80.01 0)
+				(at 5.08 -30.48 0)
 				(show_name)
 				(effects
 					(font
@@ -141,7 +141,7 @@
 				)
 			)
 			(property "Number of Rows" "2"
-				(at 5.08 -82.55 0)
+				(at 5.08 -33.02 0)
 				(show_name)
 				(effects
 					(font
@@ -151,8 +151,8 @@
 					(hide yes)
 				)
 			)
-			(property "Pin Count" "41"
-				(at 5.08 -85.09 0)
+			(property "Pin Count" "2"
+				(at 5.08 -35.56 0)
 				(show_name)
 				(effects
 					(font
@@ -163,7 +163,7 @@
 				)
 			)
 			(property "Pitch (mm)" "1.27"
-				(at 5.08 -87.63 0)
+				(at 5.08 -38.1 0)
 				(show_name)
 				(effects
 					(font
@@ -173,8 +173,8 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "FW-xx-03-G-D-085-155"
-				(at 5.08 -90.17 0)
+			(property "Series" "CLP-1xx-02-G-D-BE"
+				(at 5.08 -40.64 0)
 				(show_name)
 				(effects
 					(font
@@ -184,8 +184,8 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "J_FW-41-03-G-D-085-155"
-				(at 5.08 -92.71 0)
+			(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+				(at 5.08 -43.18 0)
 				(show_name)
 				(effects
 					(font
@@ -195,8 +195,8 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-41-03-G-D-085-155"
-				(at 5.08 -95.25 0)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+				(at 5.08 -45.72 0)
 				(show_name)
 				(effects
 					(font
@@ -207,7 +207,7 @@
 				)
 			)
 			(property "Voltage Rating (V)" "300"
-				(at 5.08 -97.79 0)
+				(at 5.08 -48.26 0)
 				(show_name)
 				(effects
 					(font
@@ -217,9 +217,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_FW-41-03-G-D-085-155_0_0"
+			(symbol "J_CLP-102-02-G-D-BE_0_0"
 				(pin unspecified line
-					(at -5.08 50.8 0)
+					(at -5.08 1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -237,7 +237,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 48.26 0)
+					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -255,709 +255,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 45.72 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 43.18 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 40.64 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 38.1 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 35.56 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 33.02 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 30.48 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 27.94 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 25.4 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 22.86 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 20.32 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 17.78 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 15.24 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 12.7 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 10.16 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -10.16 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -12.7 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -15.24 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -17.78 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -20.32 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -22.86 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -25.4 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -27.94 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -30.48 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -33.02 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -35.56 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -38.1 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -40.64 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -43.18 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "75"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -45.72 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "77"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -48.26 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "79"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -50.8 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "81"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 50.8 180)
+					(at 5.08 1.27 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -975,7 +273,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 48.26 180)
+					(at 5.08 -1.27 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -992,8 +290,237 @@
 						)
 					)
 				)
+			)
+			(symbol "J_CLP-102-02-G-D-BE_1_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CONNECTORS_DATA_BASE:J_FW-13-03-G-D-085-155"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FW-13-03-G-D-085-155"
+				(at 5.08 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FW-13-03-G-D-085-155"
+				(at 5.08 -21.59 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+				(at 5.08 -24.13 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  13 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+				(at 5.08 -26.67 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -29.21 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Gold"
+				(at 5.08 -31.75 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -34.29 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FW-13-03-G-D-085-155"
+				(at 5.08 -36.83 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -39.37 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -41.91 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -44.45 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -46.99 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "13"
+				(at 5.08 -49.53 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -52.07 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FW-xx-03-G-D-085-155"
+				(at 5.08 -54.61 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FW-13-03-G-D-085-155"
+				(at 5.08 -57.15 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-13-03-G-D-085-155"
+				(at 5.08 -59.69 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -62.23 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FW-13-03-G-D-085-155_0_0"
 				(pin unspecified line
-					(at 5.08 45.72 180)
+					(at -5.08 15.24 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1002,7 +529,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1011,7 +538,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 43.18 180)
+					(at -5.08 12.7 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1020,7 +547,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1029,7 +556,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 40.64 180)
+					(at -5.08 10.16 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1038,7 +565,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1047,7 +574,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 38.1 180)
+					(at -5.08 7.62 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1056,7 +583,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1065,7 +592,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 35.56 180)
+					(at -5.08 5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1074,7 +601,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1083,7 +610,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 33.02 180)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1092,7 +619,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1101,7 +628,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 30.48 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1110,7 +637,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1119,7 +646,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 27.94 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1128,7 +655,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1137,7 +664,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 25.4 180)
+					(at -5.08 -5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1146,7 +673,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1155,7 +682,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 22.86 180)
+					(at -5.08 -7.62 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1164,7 +691,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1173,7 +700,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 20.32 180)
+					(at -5.08 -10.16 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1182,7 +709,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1191,7 +718,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 17.78 180)
+					(at -5.08 -12.7 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1200,7 +727,25 @@
 							)
 						)
 					)
-					(number "28"
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,7 +763,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,7 +781,7 @@
 							)
 						)
 					)
-					(number "32"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1254,7 +799,7 @@
 							)
 						)
 					)
-					(number "34"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1272,7 +817,7 @@
 							)
 						)
 					)
-					(number "36"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1290,7 +835,7 @@
 							)
 						)
 					)
-					(number "38"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1308,7 +853,7 @@
 							)
 						)
 					)
-					(number "40"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,7 +871,7 @@
 							)
 						)
 					)
-					(number "42"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1344,7 +889,7 @@
 							)
 						)
 					)
-					(number "44"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1362,7 +907,7 @@
 							)
 						)
 					)
-					(number "46"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1380,7 +925,7 @@
 							)
 						)
 					)
-					(number "48"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1398,7 +943,7 @@
 							)
 						)
 					)
-					(number "50"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1416,7 +961,7 @@
 							)
 						)
 					)
-					(number "52"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1434,7 +979,1136 @@
 							)
 						)
 					)
-					(number "54"
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_FW-13-03-G-D-085-155_1_0"
+				(rectangle
+					(start -2.54 17.78)
+					(end 2.54 -17.78)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CONNECTORS_DATA_BASE:J_FW-29-03-G-D-085-155"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FW-29-03-G-D-085-155"
+				(at 5.08 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FW-29-03-G-D-085-155"
+				(at 5.08 -41.91 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+				(at 5.08 -44.45 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  29 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+				(at 5.08 -46.99 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -49.53 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Gold"
+				(at 5.08 -52.07 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -54.61 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FW-29-03-G-D-085-155"
+				(at 5.08 -57.15 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -59.69 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -62.23 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -64.77 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -67.31 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "29"
+				(at 5.08 -69.85 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -72.39 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FW-xx-03-G-D-085-155"
+				(at 5.08 -74.93 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FW-29-03-G-D-085-155"
+				(at 5.08 -77.47 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-29-03-G-D-085-155"
+				(at 5.08 -80.01 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -82.55 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FW-29-03-G-D-085-155_0_0"
+				(pin unspecified line
+					(at -5.08 35.56 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 33.02 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 30.48 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 27.94 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 25.4 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 22.86 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 20.32 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 17.78 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -17.78 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -20.32 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -22.86 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -25.4 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -30.48 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -33.02 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -35.56 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 35.56 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 33.02 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 30.48 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 27.94 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 25.4 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 22.86 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 20.32 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 17.78 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1452,7 +2126,7 @@
 							)
 						)
 					)
-					(number "56"
+					(number "44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1470,7 +2144,7 @@
 							)
 						)
 					)
-					(number "58"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1488,7 +2162,7 @@
 							)
 						)
 					)
-					(number "60"
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1506,7 +2180,7 @@
 							)
 						)
 					)
-					(number "62"
+					(number "50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1524,7 +2198,7 @@
 							)
 						)
 					)
-					(number "64"
+					(number "52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1542,7 +2216,7 @@
 							)
 						)
 					)
-					(number "66"
+					(number "54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1560,7 +2234,7 @@
 							)
 						)
 					)
-					(number "68"
+					(number "56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1578,115 +2252,7 @@
 							)
 						)
 					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -38.1 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -40.64 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -43.18 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "76"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -45.72 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "78"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -48.26 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -50.8 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "82"
+					(number "58"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1695,13 +2261,306 @@
 					)
 				)
 			)
-			(symbol "J_FW-41-03-G-D-085-155_1_0"
+			(symbol "J_FW-29-03-G-D-085-155_1_0"
 				(rectangle
-					(start -2.54 53.34)
-					(end 2.54 -53.34)
+					(start -2.54 38.1)
+					(end 2.54 -38.1)
 					(stroke
 						(width 0.254)
 						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_MODULES_DATA_BASE:MINIMAL_MAX17761"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "modules_footprints:minimal_max17761"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MINIMAL_MAX17761_0_1"
+				(polyline
+					(pts
+						(xy -2.794 0.254) (xy -2.794 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 1.27)
+					(mid -1.9268 0.9108)
+					(end -2.286 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 0.254)
+					(mid -2.6452 0.6132)
+					(end -2.286 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.286 -0.762)
+					(mid -2.6452 -0.6132)
+					(end -2.794 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.286 -0.762)
+					(mid -1.9268 -0.9108)
+					(end -1.778 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.524) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.524) (xy -1.778 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 1.524)
+					(mid -1.6296 1.8836)
+					(end -1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -2.032)
+					(mid -1.6292 -1.8832)
+					(end -1.778 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.032) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.032) (xy -1.27 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 2.032)
+					(mid 1.6292 1.8832)
+					(end 1.778 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 -1.524)
+					(mid 1.6295 -1.8835)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.524) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.524) (xy 1.778 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 0.762)
+					(mid 1.9268 0.9108)
+					(end 1.778 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.796 -0.256)
+					(mid 2.6466 -0.6146)
+					(end 2.288 -0.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 -1.27)
+					(mid 1.9268 -0.9108)
+					(end 2.286 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.288 0.76)
+					(mid 2.6472 0.6112)
+					(end 2.796 0.252)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.254) (xy 2.794 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1926,33 +2785,34 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-41-03-G-D-085-155")
-		(at 115.57 107.95 0)
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 40.64 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8f6881b-d066-4824-a1b0-a29309ecd670")
-		(property "Reference" "J32"
-			(at 115.57 49.53 0)
+		(uuid "8477b1d1-1e3c-429d-becc-05a78cae1ecf")
+		(property "Reference" "J23"
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FW-41-03-G-D-085-155"
-			(at 115.57 52.07 0)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 40.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-41-03-G-D-085-155"
-			(at 120.65 165.1 0)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 35.56 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1962,8 +2822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-			(at 120.65 167.64 0)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 35.56 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1973,8 +2833,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  41 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-			(at 120.65 170.18 0)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 35.56 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1985,7 +2845,7 @@
 			)
 		)
 		(property "Color" "Black"
-			(at 120.65 172.72 0)
+			(at 35.56 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1995,8 +2855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Contact Plating" "Gold"
-			(at 120.65 175.26 0)
+		(property "Contact Plating" "Tin"
+			(at 35.56 106.68 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2007,7 +2867,7 @@
 			)
 		)
 		(property "Current Rating (A)" "5.2"
-			(at 120.65 177.8 0)
+			(at 35.56 109.22 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2017,8 +2877,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-41-03-G-D-085-155"
-			(at 120.65 180.34 0)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 35.56 111.76 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2029,7 +2889,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 120.65 182.88 0)
+			(at 35.56 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2040,7 +2900,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 120.65 185.42 0)
+			(at 35.56 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2051,7 +2911,7 @@
 			)
 		)
 		(property "Mounting Style" "Surface Mount"
-			(at 120.65 187.96 0)
+			(at 35.56 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2062,7 +2922,7 @@
 			)
 		)
 		(property "Number of Rows" "2"
-			(at 120.65 190.5 0)
+			(at 35.56 121.92 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2072,8 +2932,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count" "41"
-			(at 120.65 193.04 0)
+		(property "Pin Count" "2"
+			(at 35.56 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2084,7 +2944,7 @@
 			)
 		)
 		(property "Pitch (mm)" "1.27"
-			(at 120.65 195.58 0)
+			(at 35.56 127 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2094,8 +2954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-03-G-D-085-155"
-			(at 120.65 198.12 0)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 35.56 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2105,8 +2965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-41-03-G-D-085-155"
-			(at 120.65 200.66 0)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 35.56 132.08 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2116,8 +2976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-41-03-G-D-085-155"
-			(at 120.65 203.2 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 35.56 134.62 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2128,7 +2988,841 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 120.65 205.74 0)
+			(at 35.56 137.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "873ef3e3-4ea7-404b-aaf9-7fb745834924")
+		)
+		(pin "4"
+			(uuid "14377f49-857a-44a8-86c0-d8919dc566f7")
+		)
+		(pin "2"
+			(uuid "f8ecefd2-8e77-4609-a63a-be90d8208a78")
+		)
+		(pin "3"
+			(uuid "17095d54-0b40-4eb8-b94a-42ebf3780a16")
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/1ba52bb1-dfa5-4e79-b99c-b54242d8ec88"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-13-03-G-D-085-155")
+		(at 172.72 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895184c2-975f-40b7-a4f9-c6e1164dcd44")
+		(property "Reference" "J38"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FW-13-03-G-D-085-155"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:FW-13-03-G-D-085-155"
+			(at 177.8 129.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(at 177.8 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  13 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(at 177.8 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 177.8 137.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Gold"
+			(at 177.8 139.7 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 177.8 142.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FW-13-03-G-D-085-155"
+			(at 177.8 144.78 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 177.8 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 177.8 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 177.8 152.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 177.8 154.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "13"
+			(at 177.8 157.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 177.8 160.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FW-xx-03-G-D-085-155"
+			(at 177.8 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FW-13-03-G-D-085-155"
+			(at 177.8 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-13-03-G-D-085-155"
+			(at 177.8 167.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 177.8 170.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1e487729-8946-4e4f-9a2a-dcd931c8b841")
+		)
+		(pin "4"
+			(uuid "d6d73af8-91c6-40cc-b6b7-90977f6fd33f")
+		)
+		(pin "2"
+			(uuid "3a85d437-b9c7-43ef-ae15-359ffae891d0")
+		)
+		(pin "1"
+			(uuid "b375402f-d16c-4f71-8ca9-315c09afd24a")
+		)
+		(pin "8"
+			(uuid "2bb7aebd-4e34-4194-b6b7-147deedbf71d")
+		)
+		(pin "18"
+			(uuid "5930eaa3-4c07-4d4d-a744-cb2a8dda6295")
+		)
+		(pin "6"
+			(uuid "7dcb3a7e-a4f4-4903-99f1-0a23bb078e72")
+		)
+		(pin "12"
+			(uuid "4ebc70ce-0abf-451a-b0a6-77ed748bbdf0")
+		)
+		(pin "16"
+			(uuid "e8376731-3b82-4cf1-a5c2-74c6ba518a7c")
+		)
+		(pin "10"
+			(uuid "f41a6ec0-74db-4cb5-b111-9c5890b78f6b")
+		)
+		(pin "22"
+			(uuid "a090a9b3-2041-4966-92c8-dff823030ad1")
+		)
+		(pin "14"
+			(uuid "eb799a3d-6e40-4fb2-8422-132e7374f25d")
+		)
+		(pin "20"
+			(uuid "840d7491-7b27-4368-b3a3-3d1c3d993449")
+		)
+		(pin "24"
+			(uuid "621b79fc-b619-435a-86dd-e8ab21566b9c")
+		)
+		(pin "26"
+			(uuid "0ef40465-b918-4a9d-9e7b-5f05b81890ef")
+		)
+		(pin "11"
+			(uuid "96c2d4a2-6b9d-4ade-9661-da9b6203b1ed")
+		)
+		(pin "17"
+			(uuid "a412ee4e-672d-49d4-8999-71d9acb08330")
+		)
+		(pin "25"
+			(uuid "f251cbd1-ff8f-4fc1-8bce-a76ccb498f02")
+		)
+		(pin "23"
+			(uuid "7c671f02-3d8d-4033-a83a-6eba21c3a9e1")
+		)
+		(pin "5"
+			(uuid "eee7b81f-4243-438c-aba4-9e5959c272b2")
+		)
+		(pin "15"
+			(uuid "e497ce37-76c1-4ef7-8588-5c6ae1678bae")
+		)
+		(pin "19"
+			(uuid "ad4ba6fd-5a4c-47c8-a559-43743749c979")
+		)
+		(pin "21"
+			(uuid "18d256bf-56be-42ac-9adc-2f75d39be46f")
+		)
+		(pin "13"
+			(uuid "69f1280a-06ee-4691-b15d-70be9a6f8c2e")
+		)
+		(pin "7"
+			(uuid "a5dc7602-571e-4ba0-952f-e5ea39618cb9")
+		)
+		(pin "9"
+			(uuid "6352817d-b80b-427e-83a5-5269bb545bac")
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/1ba52bb1-dfa5-4e79-b99c-b54242d8ec88"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MODULES_DATA_BASE:MINIMAL_MAX17761")
+		(at 54.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac250ea6-2543-4c86-9958-0cb0cadf4f14")
+		(property "Reference" "MOD7"
+			(at 58.42 88.265 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "modules_footprints:minimal_max17761"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/1ba52bb1-dfa5-4e79-b99c-b54242d8ec88"
+					(reference "MOD7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_CLP-102-02-G-D-BE")
+		(at 68.58 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d254af4d-8758-456d-a9e3-b93e94961208")
+		(property "Reference" "J30"
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-102-02-G-D-BE"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-102-02-G-D-BE"
+			(at 63.5 96.52 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 63.5 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 63.5 101.6 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 63.5 104.14 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 63.5 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 63.5 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-102-02-G-D-BE"
+			(at 63.5 111.76 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 63.5 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 63.5 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 63.5 119.38 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 63.5 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 63.5 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 63.5 127 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 63.5 129.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-102-02-G-D-BE"
+			(at 63.5 132.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-102-02-G-D-BE"
+			(at 63.5 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 63.5 137.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9e9b093-c588-4ea9-8d36-e360f601ea08")
+		)
+		(pin "4"
+			(uuid "87a2086f-1152-4487-9242-6e6016a522d1")
+		)
+		(pin "2"
+			(uuid "26a49454-d6f7-41e8-9a37-6326502359bc")
+		)
+		(pin "3"
+			(uuid "ba0cd442-e5c0-426a-a55d-689305093160")
+		)
+		(instances
+			(project "modular_software_configurable_io_plc"
+				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/1ba52bb1-dfa5-4e79-b99c-b54242d8ec88"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-29-03-G-D-085-155")
+		(at 115.57 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f6881b-d066-4824-a1b0-a29309ecd670")
+		(property "Reference" "J32"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FW-29-03-G-D-085-155"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:FW-29-03-G-D-085-155"
+			(at 120.65 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(at 120.65 152.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  29 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(at 120.65 154.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 120.65 157.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Gold"
+			(at 120.65 160.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 120.65 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FW-29-03-G-D-085-155"
+			(at 120.65 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 120.65 167.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 120.65 170.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 120.65 172.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 120.65 175.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "29"
+			(at 120.65 177.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 120.65 180.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FW-xx-03-G-D-085-155"
+			(at 120.65 182.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FW-29-03-G-D-085-155"
+			(at 120.65 185.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-29-03-G-D-085-155"
+			(at 120.65 187.96 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 120.65 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2150,14 +3844,8 @@
 		(pin "1"
 			(uuid "70ef3712-1d00-40bc-8f68-0b5ac8641b27")
 		)
-		(pin "75"
-			(uuid "8ee3b9f4-1783-4b47-8e17-82871abf9a80")
-		)
 		(pin "37"
 			(uuid "f0b05f2f-096c-4334-b0c3-6d578653d8c4")
-		)
-		(pin "71"
-			(uuid "7d311195-7baf-4952-87cd-5800f4ca171d")
 		)
 		(pin "30"
 			(uuid "c1abf67d-1d78-48cb-aaff-1f40b825e8c0")
@@ -2167,9 +3855,6 @@
 		)
 		(pin "33"
 			(uuid "59025d8a-175d-4109-88f5-3aadafc52c2f")
-		)
-		(pin "69"
-			(uuid "cf86ee31-c121-4e5d-9d22-d47b1b9c316a")
 		)
 		(pin "8"
 			(uuid "102d2d4f-a981-46c0-bdff-98db6c34a1f0")
@@ -2198,14 +3883,8 @@
 		(pin "6"
 			(uuid "0c2ae80d-352b-4155-b812-9afdcca6a2be")
 		)
-		(pin "61"
-			(uuid "88a4f63c-efbc-4b3d-9817-a5742ed7b454")
-		)
 		(pin "47"
 			(uuid "831f4b67-3715-49a1-9bea-328dc30620f3")
-		)
-		(pin "73"
-			(uuid "45152ec9-cdac-4ba0-9813-084b043bce92")
 		)
 		(pin "40"
 			(uuid "09e373cb-f0d6-46cc-bd12-e4a4ae8e9020")
@@ -2228,32 +3907,17 @@
 		(pin "16"
 			(uuid "fdd51610-112a-4b58-a246-db1a9c63bc6a")
 		)
-		(pin "62"
-			(uuid "0bf7043b-5289-462f-8468-9c63d4bd64de")
-		)
 		(pin "10"
 			(uuid "0b44e9c6-2502-4fe6-b660-b89eb7ad1f05")
 		)
 		(pin "45"
 			(uuid "50808562-bb5c-470e-90b5-1f15fd87143c")
 		)
-		(pin "77"
-			(uuid "43c695df-1731-4dc3-848f-b2fe8c1b2ad1")
-		)
-		(pin "79"
-			(uuid "364a4c9f-ab2f-4de4-b768-35beda3f95e1")
-		)
-		(pin "81"
-			(uuid "1f30dfe5-646f-4f99-a7d6-52d4e9d7a9b6")
-		)
 		(pin "35"
 			(uuid "9d13f4c1-3d86-4592-9d2a-666ab47f9f79")
 		)
 		(pin "55"
 			(uuid "2f77499d-4e9c-4e47-97bd-f509776998c0")
-		)
-		(pin "65"
-			(uuid "df086d7f-f4c6-45a2-a438-4fda6cc9f824")
 		)
 		(pin "57"
 			(uuid "4984f1bf-7642-4c94-b34d-3b97bc7494f0")
@@ -2263,12 +3927,6 @@
 		)
 		(pin "49"
 			(uuid "b5d2e1dc-3ff2-47b2-9841-2742be954e05")
-		)
-		(pin "67"
-			(uuid "d8d80732-8d33-42c9-ba80-7f642f7327a5")
-		)
-		(pin "63"
-			(uuid "bcc0d70d-8555-4f76-9c08-ff54f5cabe52")
 		)
 		(pin "22"
 			(uuid "2a98c7d4-ebdc-4a99-acaa-6a2c8a09a038")
@@ -2284,9 +3942,6 @@
 		)
 		(pin "53"
 			(uuid "0c0f6810-fba6-4a53-a2e7-e97a4880dbcb")
-		)
-		(pin "59"
-			(uuid "fcc501ac-8f58-43a3-abe9-f83fd904adf3")
 		)
 		(pin "14"
 			(uuid "0fbb8f86-a338-4cdb-ab6d-f224f985b818")
@@ -2315,41 +3970,8 @@
 		(pin "58"
 			(uuid "b31ac361-9082-4e8c-a75f-4aa55635935f")
 		)
-		(pin "60"
-			(uuid "4b88dbe8-1215-4dca-85af-ae7ab154007e")
-		)
 		(pin "48"
 			(uuid "9931c44f-5f56-4de3-94e2-24f659db151d")
-		)
-		(pin "64"
-			(uuid "d0e20d5f-be4d-41e8-9d78-963f1bca27e4")
-		)
-		(pin "66"
-			(uuid "58b362d0-afba-4c0a-bcd1-cc865a3d7d8b")
-		)
-		(pin "68"
-			(uuid "ba4b8813-26c9-49e0-94c0-0aac3fc89faa")
-		)
-		(pin "70"
-			(uuid "465e6f51-8c3e-4c0f-b2bd-c72637acf8c3")
-		)
-		(pin "72"
-			(uuid "af5995d6-d1cb-4070-9eab-42868ae73dbd")
-		)
-		(pin "74"
-			(uuid "35aeb46f-40e8-46e8-8e0d-79566951f4dd")
-		)
-		(pin "78"
-			(uuid "2894af7a-30bc-472f-9dce-caaef944a202")
-		)
-		(pin "82"
-			(uuid "f9bba0df-f762-4db2-8b4a-e465d3144f02")
-		)
-		(pin "80"
-			(uuid "948cc9d4-f28d-4f02-904b-fc46962bdca8")
-		)
-		(pin "76"
-			(uuid "73dc234c-2e93-4aeb-ad62-11bef1751766")
 		)
 		(pin "11"
 			(uuid "656358f9-df48-4f89-98c6-6d8e19608a32")

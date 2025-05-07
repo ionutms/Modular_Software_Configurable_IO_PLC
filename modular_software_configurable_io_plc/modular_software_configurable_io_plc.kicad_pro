@@ -722,6 +722,26 @@
     [
       "1ba52bb1-dfa5-4e79-b99c-b54242d8ec88",
       "MCU"
+    ],
+    [
+      "4f7f8433-2347-44be-9a2c-f7cb646575a7",
+      "Minimal_LT8304"
+    ],
+    [
+      "30006d44-0996-4923-a210-c99e7b61b211",
+      "Minimal_AD74413R"
+    ],
+    [
+      "ef0c2969-c00e-495f-90c1-946f3725c0e6",
+      "Minimal_MAX14906"
+    ],
+    [
+      "0b69c526-b598-4331-8146-cbb0bf9989e6",
+      "Minimal_LTC9111"
+    ],
+    [
+      "aa3cb439-8da3-4fca-ad07-fe00873ec95e",
+      "Minimal_ADIN1110"
     ]
   ],
   "text_variables": {}
