@@ -69,7 +69,7 @@ views:
   side_exploded_1:
     prefix: '8_'
     suffix: '_side_exploded_1'
-    zoom_factor: 0.6
+    zoom_factor: 0.4
     rotate: '315,360,405'
     pan: '0,0.6,0'
     light_elevation: 30
@@ -84,11 +84,11 @@ views:
         y: 0
         z: 0
       - reference: M2
-        x: 80
+        x: 120
         y: 0
         z: 0
       - reference: M3
-        x: 120
+        x: 160
         y: 0
         z: 0
 
