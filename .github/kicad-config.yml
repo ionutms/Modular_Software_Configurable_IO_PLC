@@ -79,7 +79,7 @@ views:
       - M2
       - M3
     offset_footprints:
-      - reference: M2
+      - reference: M1
         x: 0
         y: 0
         z: -10
