@@ -78,6 +78,15 @@ views:
       - M1
       - M2
       - M3
+    offset_footprints:
+      - reference: M2
+        x: -20
+        y: 0
+        z: 0
+      - reference: M3
+        x: 20
+        y: 0
+        z: 0
 
 defaults:
   zoom_factor: 1.0
