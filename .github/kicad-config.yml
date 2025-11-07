@@ -78,15 +78,23 @@ views:
       - M1
       - M2
       - M3
+    hide_footprints:
+      - MOD1
+      - MOD2
+      - MOD3
     offset_footprints:
+      - reference: M1
+        x: 0
+        y: 0
+        z: -40
       - reference: M2
         x: -40
         y: 0
-        z: 0
+        z: -40
       - reference: M3
         x: 40
         y: 0
-        z: 0
+        z: -40
 
 defaults:
   zoom_factor: 1.0

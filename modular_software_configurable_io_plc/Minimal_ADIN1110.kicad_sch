@@ -1803,7 +1803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad60880-1f0b-4921-8792-05af116eb097")
-		(property "Reference" "J15"
+		(property "Reference" "J27"
 			(at 120.65 78.74 0)
 			(effects
 				(font
@@ -2093,7 +2093,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/aa3cb439-8da3-4fca-ad07-fe00873ec95e"
-					(reference "J15")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -2109,7 +2109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e990ab9-b5f1-44c0-8f04-0b9b3322174a")
-		(property "Reference" "J17"
+		(property "Reference" "J16"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -2327,7 +2327,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/aa3cb439-8da3-4fca-ad07-fe00873ec95e"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -2343,7 +2343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3381c003-7052-4f5b-b565-a90f5cbabffc")
-		(property "Reference" "J16"
+		(property "Reference" "J13"
 			(at 143.51 81.28 0)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/aa3cb439-8da3-4fca-ad07-fe00873ec95e"
-					(reference "J16")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -2577,7 +2577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64526256-7d8a-4cc5-853c-a5d8e25e90d8")
-		(property "Reference" "J22"
+		(property "Reference" "J8"
 			(at 171.45 107.95 0)
 			(effects
 				(font
@@ -2795,7 +2795,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/aa3cb439-8da3-4fca-ad07-fe00873ec95e"
-					(reference "J22")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2952,7 +2952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ab17ac-9157-4ede-801d-99dcbde2077d")
-		(property "Reference" "J19"
+		(property "Reference" "J9"
 			(at 151.13 106.68 0)
 			(effects
 				(font
@@ -3170,7 +3170,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/aa3cb439-8da3-4fca-ad07-fe00873ec95e"
-					(reference "J19")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3186,7 +3186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed00014c-e579-46b4-ac21-5b2fd0fc658b")
-		(property "Reference" "J18"
+		(property "Reference" "J19"
 			(at 162.56 95.25 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 		(instances
 			(project "modular_software_configurable_io_plc"
 				(path "/b764ffe3-5231-4422-b46d-b0de4c44c7b4/aa3cb439-8da3-4fca-ad07-fe00873ec95e"
-					(reference "J18")
+					(reference "J19")
 					(unit 1)
 				)
 			)
