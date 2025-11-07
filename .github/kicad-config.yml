@@ -2,7 +2,7 @@ views:
   side:
     prefix: '1_'
     suffix: '_side'
-    zoom_factor: 0.7
+    zoom_factor: 0.8
     rotate: '315,360,405'
     pan: '0,0.6,0'
     light_elevation: 30
@@ -15,7 +15,7 @@ views:
   top:
     prefix: '2_'
     suffix: '_top'
-    zoom_factor: 0.7
+    zoom_factor: 0.8
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -24,7 +24,7 @@ views:
   bottom:
     prefix: '3_'
     suffix: '_bottom'
-    zoom_factor: 0.7
+    zoom_factor: 0.8
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -33,7 +33,7 @@ views:
   left:
     prefix: '4_'
     suffix: '_left'
-    zoom_factor: 1.4
+    zoom_factor: 1.5
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -42,7 +42,7 @@ views:
   right:
     prefix: '5_'
     suffix: '_right'
-    zoom_factor: 1.4
+    zoom_factor: 1.5
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -51,7 +51,7 @@ views:
   front:
     prefix: '6_'
     suffix: '_front'
-    zoom_factor: 1.4
+    zoom_factor: 1.5
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -60,7 +60,7 @@ views:
   back:
     prefix: '7_'
     suffix: '_back'
-    zoom_factor: 1.4
+    zoom_factor: 1.5
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -85,6 +85,7 @@ views:
       - MOD4
       - MOD5
       - MOD6
+      - MOD7
     offset_footprints:
       - reference: M1
         x: -40
