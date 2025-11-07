@@ -71,7 +71,7 @@ views:
     suffix: '_side_exploded_1'
     zoom_factor: 0.4
     rotate: '315,360,405'
-    pan: '0,0.6,0'
+    pan: '0,-1,0'
     light_elevation: 30
     side: 'top'
     show_footprints:
