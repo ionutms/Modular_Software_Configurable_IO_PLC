@@ -81,8 +81,8 @@ views:
     offset_footprints:
       - reference: M1
         x: 0
-        y: 0
-        z: -10
+        y: -10
+        z: 0
       - reference: M2
         x: -40
         y: 0
