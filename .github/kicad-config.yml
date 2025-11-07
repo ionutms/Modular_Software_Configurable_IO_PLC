@@ -69,22 +69,22 @@ views:
   side_exploded_1:
     prefix: '8_'
     suffix: '_side_exploded_1'
-    zoom_factor: 0.7
+    zoom_factor: 0.6
     rotate: '315,360,405'
     pan: '0,0.6,0'
     light_elevation: 30
-    side: 'top'  # (top, bottom, left, right, front, back)
+    side: 'top'
     show_footprints:
       - M1
       - M2
       - M3
     offset_footprints:
       - reference: M2
-        x: -20
+        x: -40
         y: 0
         z: 0
       - reference: M3
-        x: 20
+        x: 40
         y: 0
         z: 0
 
