@@ -80,11 +80,11 @@ views:
       - M3
     offset_footprints:
       - reference: M1
-        x: -80
+        x: 80
         y: 0
         z: 0
       - reference: M2
-        x: -40
+        x: 40
         y: 0
         z: 0
       - reference: M3
