@@ -78,6 +78,13 @@ views:
       - M1
       - M2
       - M3
+    hide_footprints:
+      - MOD1
+      - MOD2
+      - MOD3
+      - MOD4
+      - MOD5
+      - MOD6
     offset_footprints:
       - reference: M1
         x: -40
