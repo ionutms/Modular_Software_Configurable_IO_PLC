@@ -69,9 +69,9 @@ views:
   side_exploded_1:
     prefix: '8_'
     suffix: '_side_exploded_1'
-    zoom_factor: 0.4
+    zoom_factor: 0.45
     rotate: '315,360,405'
-    pan: '0,-1,0'
+    pan: '0,-3,0'
     light_elevation: 30
     side: 'top'
     show_footprints:
