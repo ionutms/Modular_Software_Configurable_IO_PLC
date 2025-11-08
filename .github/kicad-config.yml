@@ -15,7 +15,7 @@ views:
   top:
     prefix: '2_'
     suffix: '_top'
-    zoom_factor: 1.1
+    zoom_factor: 1
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -24,7 +24,7 @@ views:
   bottom:
     prefix: '3_'
     suffix: '_bottom'
-    zoom_factor: 1.1
+    zoom_factor: 1
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
