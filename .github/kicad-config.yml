@@ -100,6 +100,22 @@ views:
         y: 0
         z: 0
 
+  side_exploded_2:
+    prefix: '9_'
+    suffix: '_side_exploded_2'
+    zoom_factor: 0.45
+    rotate: '315,360,405'
+    pan: '0,-3,0'
+    light_elevation: 30
+    side: 'top'
+    show_footprints:
+      - MOD2
+    offset_footprints:
+      - reference: MOD2
+        x: 0
+        y: 0
+        z: -40
+
 defaults:
   zoom_factor: 1.0
   rotate: '0,0,0'
