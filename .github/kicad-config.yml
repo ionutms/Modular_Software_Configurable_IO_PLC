@@ -110,11 +110,26 @@ views:
     side: 'top'
     show_footprints:
       - MOD2
+      - MOD3
+      - MOD5
+      - MOD6
     offset_footprints:
       - reference: MOD2
         x: 0
         y: 0
-        z: -40
+        z: -100
+      - reference: MOD3
+        x: 0
+        y: 0
+        z: -100
+      - reference: MOD5
+        x: 0
+        y: 0
+        z: -100
+      - reference: MOD6
+        x: 0
+        y: 0
+        z: -100
 
 defaults:
   zoom_factor: 1.0
