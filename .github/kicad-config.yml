@@ -103,47 +103,45 @@ views:
   side_exploded_2:
     prefix: '9_'
     suffix: '_side_exploded_2'
-    zoom_factor: 0.4
+    zoom_factor: 0.45
     rotate: '295,360,405'
-    pan: '0,-3,0'
+    pan: '0,-2,0'
     light_elevation: 30
     side: 'top'
     show_footprints:
-      - MOD2
-      - MOD3
-      - MOD5
-      - MOD6
-
-      - MOD1
-      - MOD4
-      - MOD7
+      - MOD2 # (on bottom side)
+      - MOD3 # (on bottom side)
+      - MOD5 # (on bottom side)
+      - MOD6 # (on bottom side)
+      - MOD1 # (on top side)
+      - MOD4 # (on top side)
+      - MOD7 # (on top side)
     offset_footprints:
-      - reference: MOD2
+      - reference: MOD2 # (on bottom side)
         x: 0
         y: 0
         z: -50
-      - reference: MOD3
+      - reference: MOD3 # (on bottom side)
         x: 0
         y: 0
         z: -50
-      - reference: MOD5
+      - reference: MOD5 # (on bottom side)
         x: 0
         y: 0
         z: -50
-      - reference: MOD6
+      - reference: MOD6 # (on bottom side)
         x: 0
         y: 0
         z: -50
-
-      - reference: MOD1
+      - reference: MOD1 # (on top side)
         x: 0
         y: 0
         z: 50
-      - reference: MOD4
+      - reference: MOD4 # (on top side)
         x: 0
         y: 0
         z: 50
-      - reference: MOD7
+      - reference: MOD7 # (on top side)
         x: 0
         y: 0
         z: 50
