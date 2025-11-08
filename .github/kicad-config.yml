@@ -121,32 +121,32 @@ views:
       - reference: MOD2
         x: 0
         y: 0
-        z: -100
+        z: -50
       - reference: MOD3
         x: 0
         y: 0
-        z: -100
+        z: -50
       - reference: MOD5
         x: 0
         y: 0
-        z: -100
+        z: -50
       - reference: MOD6
         x: 0
         y: 0
-        z: -100
+        z: -50
 
       - reference: MOD1
         x: 0
         y: 0
-        z: 100
+        z: 50
       - reference: MOD4
         x: 0
         y: 0
-        z: 100
+        z: 50
       - reference: MOD7
         x: 0
         y: 0
-        z: 100
+        z: 50
 
 defaults:
   zoom_factor: 1.0
