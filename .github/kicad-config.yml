@@ -70,7 +70,7 @@ views:
     prefix: '8_'
     suffix: '_side_exploded_1'
     zoom_factor: 0.45
-    rotate: '315,360,405'
+    rotate: '295,360,405'
     pan: '0,-3,0'
     light_elevation: 30
     side: 'top'
@@ -104,7 +104,7 @@ views:
     prefix: '9_'
     suffix: '_side_exploded_2'
     zoom_factor: 0.4
-    rotate: '315,360,405'
+    rotate: '295,360,405'
     pan: '0,-3,0'
     light_elevation: 30
     side: 'top'
