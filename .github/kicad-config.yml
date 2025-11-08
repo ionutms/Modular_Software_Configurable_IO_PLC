@@ -74,11 +74,10 @@ views:
     pan: '0,-3,0'
     light_elevation: 30
     side: 'top'
-    show_footprints:
+    hide_footprints:
       - M1
       - M2
       - M3
-    hide_footprints:
       - MOD1
       - MOD2
       - MOD3
@@ -109,6 +108,55 @@ views:
     light_elevation: 30
     side: 'top'
     show_footprints:
+      - MOD2 # (on bottom side)
+      - MOD3 # (on bottom side)
+      - MOD5 # (on bottom side)
+      - MOD6 # (on bottom side)
+      - MOD1 # (on top side)
+      - MOD4 # (on top side)
+      - MOD7 # (on top side)
+    offset_footprints:
+      - reference: MOD2 # (on bottom side)
+        x: 0
+        y: 0
+        z: -50
+      - reference: MOD3 # (on bottom side)
+        x: 0
+        y: 0
+        z: -50
+      - reference: MOD5 # (on bottom side)
+        x: 0
+        y: 0
+        z: -50
+      - reference: MOD6 # (on bottom side)
+        x: 0
+        y: 0
+        z: -50
+      - reference: MOD1 # (on top side)
+        x: 0
+        y: 0
+        z: 50
+      - reference: MOD4 # (on top side)
+        x: 0
+        y: 0
+        z: 50
+      - reference: MOD7 # (on top side)
+        x: 0
+        y: 0
+        z: 50
+
+  side_exploded_3:
+    prefix: '10_'
+    suffix: '_side_exploded_3'
+    zoom_factor: 0.45
+    rotate: '295,360,405'
+    pan: '0,-2,0'
+    light_elevation: 30
+    side: 'top'
+    show_footprints:
+      - M1
+      - M2
+      - M3
       - MOD2 # (on bottom side)
       - MOD3 # (on bottom side)
       - MOD5 # (on bottom side)
