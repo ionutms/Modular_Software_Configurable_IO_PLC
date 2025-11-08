@@ -119,31 +119,31 @@ views:
       - reference: MOD2 # (on bottom side)
         x: 0
         y: 0
-        z: -30
+        z: -40
       - reference: MOD3 # (on bottom side)
         x: 0
         y: 0
-        z: -30
+        z: -40
       - reference: MOD5 # (on bottom side)
         x: 0
         y: 0
-        z: -30
+        z: -40
       - reference: MOD6 # (on bottom side)
         x: 0
         y: 0
-        z: -30
+        z: -40
       - reference: MOD1 # (on top side)
         x: 0
         y: 0
-        z: 30
+        z: 40
       - reference: MOD4 # (on top side)
         x: 0
         y: 0
-        z: 30
+        z: 40
       - reference: MOD7 # (on top side)
         x: 0
         y: 0
-        z: 30
+        z: 40
 
   side_exploded_3:
     prefix: '10_'
