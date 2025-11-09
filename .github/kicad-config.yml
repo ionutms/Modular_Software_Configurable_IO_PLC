@@ -161,7 +161,7 @@ views:
   side_enclosure:
     prefix: '11_'
     suffix: '_side_enclosure'
-    zoom_factor: 0.55
+    zoom_factor: 0.85
     rotate: '315,360,405'
     pan: '0,0,0'
     light_elevation: 30
@@ -211,7 +211,7 @@ views:
   top_enclosure:
     prefix: '12_'
     suffix: '_top_enclosure'
-    zoom_factor: 0.6
+    zoom_factor: 0.9
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -220,7 +220,7 @@ views:
   bottom_enclosure:
     prefix: '13_'
     suffix: '_bottom_enclosure'
-    zoom_factor: 0.6
+    zoom_factor: 0.9
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -229,7 +229,7 @@ views:
   left_enclosure:
     prefix: '14_'
     suffix: '_left_enclosure'
-    zoom_factor: 0.6
+    zoom_factor: 1.6
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -238,7 +238,7 @@ views:
   right_enclosure:
     prefix: '15_'
     suffix: '_right_enclosure'
-    zoom_factor: 0.6
+    zoom_factor: 1.6
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -247,7 +247,7 @@ views:
   front_enclosure:
     prefix: '16_'
     suffix: '_front_enclosure'
-    zoom_factor: 0.6
+    zoom_factor: 1.5
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -256,7 +256,7 @@ views:
   back_enclosure:
     prefix: '17_'
     suffix: '_back_enclosure'
-    zoom_factor: 0.6
+    zoom_factor: 1.5
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
