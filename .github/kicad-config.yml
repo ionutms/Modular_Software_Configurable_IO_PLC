@@ -158,6 +158,44 @@ views:
       - M2
       - M3
 
+  side_enclosure:
+    prefix: '11_'
+    suffix: '_side_enclosure'
+    zoom_factor: 0.45
+    rotate: '315,360,405'
+    pan: '0,0,0'
+    light_elevation: 30
+    side: 'top'
+    offset_footprints:
+      - reference: MOD2 # (on bottom side)
+        x: 0
+        y: 0
+        z: 40
+      - reference: MOD3 # (on bottom side)
+        x: 0
+        y: 0
+        z: 40
+      - reference: MOD5 # (on bottom side)
+        x: 0
+        y: 0
+        z: 40
+      - reference: MOD6 # (on bottom side)
+        x: 0
+        y: 0
+        z: 40
+      - reference: MOD1 # (on top side)
+        x: 0
+        y: 0
+        z: -40
+      - reference: MOD4 # (on top side)
+        x: 0
+        y: 0
+        z: -40
+      - reference: MOD7 # (on top side)
+        x: 0
+        y: 0
+        z: -40
+
 defaults:
   zoom_factor: 1.0
   rotate: '0,0,0'
